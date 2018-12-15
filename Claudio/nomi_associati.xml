@@ -1,0 +1,26 @@
+<names>
+	<assignment display="true" boardname="led0" type="relays" >Lavatrice</assignment>
+	<assignment display="true" boardname="led1" type="relays" >Luci recinto</assignment>
+	<assignment display="true" boardname="led2" type="relays" >Led scale terrazzo</assignment>
+	<assignment display="true" boardname="led3" type="relays" >Led scale ingresso</assignment>
+	<assignment display="true" boardname="led4" type="relays" >relays 4</assignment>
+	<assignment display="true" boardname="led5" type="relays" >relaysss 5</assignment>
+	<assignment display="true" boardname="led6" type="relays" >relays 6</assignment>
+	<assignment display="cancello" boardname="led7" type="relays" >cancello rel 7</assignment>
+	<assignment display="true" boardname="tem1" type="temperature" >temperatura esterna</assignment>
+	<assignment display="true" boardname="tem2" type="temperature" >temperatura cucina</assignment>
+	<assignment display="true" boardname="tem3" type="temperature" >temperatura studio</assignment>
+	<assignment display="true" boardname="tem4" type="temperature" >temperatura camera</assignment>
+	<assignment display="true" boardname="pot0" >electric 0</assignment>
+	<assignment display="true" boardname="pot1" >electric 1</assignment>
+	<assignment display="true" boardname="pot2" >electric 2</assignment>
+	<assignment display="true" boardname="pot3" >electric 3</assignment>
+	<assignment display="true" boardname="plug_0" >presa corrente 0</assignment>
+	<assignment display="true" boardname="plug_1" >presa corrente 1</assignment>
+	<assignment display="true" boardname="plug_2" >presa corrente 2</assignment>
+	<assignment display="true" boardname="plug_3" >presa corrente 3</assignment>
+	<assignment display="true" boardname="umi1" type="umidita" >umidita esterna</assignment>
+	<assignment display="true" boardname="umi2" type="umidita" >umidita cucina</assignment>
+	<assignment display="true" boardname="umi3" type="umidita" >umidita studio</assignment>
+	<assignment display="true" boardname="umi4" type="umidita" >umidita camera</assignment>
+</names>

@@ -1,0 +1,7 @@
+:hi Comment ctermfg=Cyan
+oppure 
+:highlight Comment ctermfg=Cyan
+
+:help hi
+
+shift contrl canc per cancellare dati cronologia chrome
