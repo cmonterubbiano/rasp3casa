@@ -32,15 +32,15 @@ require_once("config.php");
 		}
 		if (!strcmp($nome_arduino, "arduino_temp"))
 		{
-			$valore_orario = trim ($array_parametri[1]);
+			$valore_data = trim ($array_parametri[1]);
+			echo $valore_data . "\n";
+			$valore_orario = trim ($array_parametri[2]);
 			echo $valore_orario . "\n";
-			$nome_stanza = trim ($array_parametri[2]);
-			echo $nome_stanza . "\n";
 			$nome_colonna = trim ($array_parametri[3]);
 			echo $nome_colonna . "\n";
 			$valore_colonna = trim ($array_parametri[4]);
 			echo $valore_colonna . "\n";
-			aggiornaValoriTemperatura($valore_orario,$nome_colonna,$nome_stanza,$valore_colonna);
+			aggiornaValoriTemperatura($valore_data, $valore_orario, $nome_colonna, $valore_colonna);
 //			leggiValoriStanze();
 		}
 		elseif(!strcmp($nome_arduino, "arduino_allarme"))
@@ -51,7 +51,8 @@ require_once("config.php");
 			echo $valore_note . "\n";
 			aggiornaValoriLog($valore_comando,$valore_note);
 		}
-		elseif(!strcmp($nome_arduino, "arduino_select")){
+		elseif(!strcmp($nome_arduino, "arduino_select"))
+		{
 			$nome_stanza = trim ($array_parametri[1]);
 			echo "nome_stanza: " . $nome_stanza . "\n";
 			$nome_colonna = trim ($array_parametri[2]);
@@ -119,24 +120,24 @@ function aggiornaValoriStanze($nomeColonna, $nomeStanza, $temperatura){
 	$conn->close();
 }	
 
-function aggiornaValoriTemperatura($valore_orario,$nomeColonna, $nomeStanza, $temperatura){
+function aggiornaValoriTemperatura($valore_data, $valore_orario, $nomeColonna, $temperatura){
 	// Create connection
 	
 	$conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 	// Check connection
 	if ($conn->connect_error) {  die("Connection failed: " . $conn->connect_error); }
 
-	$sqlQuery = "SELECT * FROM temperature WHERE `temperature`.`orario` ='$valore_orario' AND `temperature`.`stanza` ='$nomeStanza'";
+	$sqlQuery = "SELECT * FROM temp_umid_perc WHERE `temp_umid_perc`.`ora` ='$valore_orario' AND `temp_umid_perc`.`data` ='$valore_data'";
 	$result = $conn->query($sqlQuery);
 
 		if ($result->num_rows >0) {
-			$sqlQueryUpdate = "UPDATE `claudio`.`temperature` SET `$nomeColonna` = '$temperatura' WHERE `temperature`.`orario` ='$valore_orario' AND `temperature`.`stanza` ='$nomeStanza'";
+			$sqlQueryUpdate = "UPDATE `claudio`.`temp_umid_perc` SET `$nomeColonna` = '$temperatura' WHERE `temp_umid_perc`.`ora` ='$valore_orario' AND `temp_umid_perc`.`data` ='$valore_data'";
 			$result = $conn->query($sqlQueryUpdate);
 			echo $sqlQueryUpdate. "<br>\n";
 		}
 		else
 		{
-			$sqlQueryInsert = "INSERT `temperature` SET `stanza` = '$nomeStanza', `orario` = '$valore_orario',`$nomeColonna` = '$temperatura' ;";
+			$sqlQueryInsert = "INSERT `temp_umid_perc` SET `data` = '$valore_data', `ora` = '$valore_orario',`$nomeColonna` = '$temperatura' ;";
 			$result = $conn->query($sqlQueryInsert);
 			echo $sqlQueryInsert. "<br>\n";
 		}
