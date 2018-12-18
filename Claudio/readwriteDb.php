@@ -62,7 +62,63 @@ require_once("config.php");
 			$result = exec('sudo /usr/bin/python /var/www/html/Claudio/arduinoWrite.py raspberry_select\|'.$valoreLetto);	
 			echo "risultato: ".$result;
 			
-		}else{
+		}
+		elseif(!strcmp($nome_arduino, "lettura_433"))
+		{
+			$valore_codice = trim ($array_parametri[1]);
+			echo $valore_codice . "\n";
+			aggiornaValoriSensori($valore_codice);
+		}
+		elseif(!strcmp($nome_arduino, "arduino_433"))
+		{
+			$codice_segnale = trim ($array_parametri[1]);
+			echo "codice_segnale: " . $codice_segnale . "\n";
+			$valoreLetto = leggiSingoloSensore($codice_segnale);
+			if ($valoreLetto)
+			{
+				aggiornaValoriLog("ALLARME",$valoreLetto);
+				aggiornaInAllarme("IN ALLARME");
+				$valoreLetto =str_replace(' ', '~', $valoreLetto);
+				echo "valoreLetto: " . $valoreLetto . "\n";
+				$result = exec('sudo /usr/bin/python /var/www/html/Claudio/arduinoWrite.py Allarme\|'.$valoreLetto);	
+				echo "risultato: ".$result;
+			}
+			else
+			{
+				echo "nessun ritorno".  "\n";
+			}
+			
+		}
+		// elseif(!strcmp($nome_arduino, "arduino_sirena"))
+		// {
+			// $valoreLetto = leggiAzioni();
+			// echo "valoreLetto: " . $valoreLetto . "\n";
+			// for(;;)
+			// {
+				// $lung =strlen($valoreLetto);
+				// echo "lunghezza inizio -> " . $lung . "\n";
+				
+				// if (($title =strpos($valoreLetto, '~')))
+				// {
+					// $parz =substr($valoreLetto, 0, $title);
+					// echo "posizione -> " . $title . "\n";
+					
+					// echo "porzione -> " . $parz . "\n";
+					// $result = exec('sudo /usr/bin/python /var/www/html/Claudio/arduinoWrite.py raspberry_sirena\|'.$par);
+					// sleep(10);
+					// $valoreLetto =substr($valoreLetto, $title, ($lung -$title));
+					// echo $valoreLetto;
+				// }
+				// break;
+			// }
+			// $result = exec('sudo /usr/bin/python /var/www/html/Claudio/arduinoWrite.py raspberry_sirena\|'.$valoreLetto);	
+			// echo "risultato: ".$result. "\n";
+// sleep(10);			
+			// echo "valoreLetto secondo: " . $valoreLetto . "\n";
+			// $result = exec('sudo /usr/bin/python /var/www/html/Claudio/arduinoWrite.py raspberry_sirena\|'.$valoreLetto);	
+		// }
+		else
+		{
 			echo $argv[1] . "\n";
 		}
 	}
@@ -192,6 +248,150 @@ function leggiSingoloValore($nomeStanza, $nomeColonna){
 	$conn->close();
 }
 
+function aggiornaValoriSensori($valore_codice)
+{
+	// Create connection
+	
+	$conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+	// Check connection
+	if ($conn->connect_error)
+	{
+		die("Connection failed: " . $conn->connect_error);
+	}
+
+	$sqlQuery = "SELECT * FROM sensori WHERE `sensori`.`id` =1";
+	$result = $conn->query($sqlQuery);
+
+	if ($result->num_rows >0)
+	{
+		$sqlQueryUpdate = "UPDATE `claudio`.`sensori` SET `Codice` = '$valore_codice' WHERE `sensori`.`id` =1";
+		$result = $conn->query($sqlQueryUpdate);
+		echo $sqlQueryUpdate. "<br>\n";
+	}
+	else
+	{
+		$sqlQueryInsert = "INSERT `sensori` SET `Codice` = '$valore_codice', `id` = 1 ;";
+		$result = $conn->query($sqlQueryInsert);
+		echo $sqlQueryInsert. "<br>\n";
+	}
+	$conn->close();
+}	
 
 
+function leggiSingoloSensore($valore_codice)
+{
+	// Create connection
+	
+	$conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+	// Check connection
+	if ($conn->connect_error)
+	{
+		die("Connection failed: " . $conn->connect_error);
+	}
+
+	$sqlQuery = "SELECT * FROM sensori WHERE `sensori`.`Codice` = '$valore_codice' AND `sensori`.`id` !=1";
+	$result = $conn->query($sqlQuery);
+
+	if ($result->num_rows ==1)
+	{
+		while($riga = $result->fetch_assoc())
+		{
+			$descrizione =$riga["descrizione"];
+			$messaggi =$riga["messaggi"];
+			$telefono =$riga["telefono"];
+			$sirena =$riga["sirena"];
+			$id =$riga["id"];
+			//$data =date("YMDHIS);
+			$data = date("Y-m-d H:i:s");
+			//echo "data -> " . $data . "\n";
+			
+			//$sqlQueryUpdate = "UPDATE `claudio`.`sensori` SET `aggiornamenti` = `aggiornamenti`+1 WHERE `sensori`.`id` =$id";
+			$sqlQueryUpdate = "UPDATE `claudio`.`sensori` SET `timestamp` = '$data' WHERE `sensori`.`id` =$id";
+			if ($conn->query($sqlQueryUpdate) === TRUE)
+			{
+				echo "Record updated successfully". "\n";
+			}
+			else
+			{
+				echo "Error updating record: " . $conn->error. "\n";
+			}
+			if (leggiStatoAllarme($riga["Generale"], $riga["Notte"], $riga["Vario"]))
+			{
+				return($descrizione."\|".$messaggi."\|".$telefono."\|".$sirena);
+			}
+		}
+	}
+	echo "";
+	
+	$conn->close();
+}	
+
+function leggiStatoAllarme($valore_generale, $valore_notte, $valore_vario)
+{
+	// Create connection
+	
+	$conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+	// Check connection
+	if ($conn->connect_error)
+	{
+		die("Connection failed: " . $conn->connect_error);
+	}
+
+	$sqlQuery = "SELECT * FROM allarme WHERE `allarme`.`id` =1";
+	$result = $conn->query($sqlQuery);
+
+	if ($result->num_rows ==1)
+	{
+		while($riga = $result->fetch_assoc()) {
+		if (!$riga["in_allarme"])
+		{	
+			if ($riga["generale"] && $valore_generale =="SI")
+				return(1);
+			if ($riga["notte"] && $valore_notte =="SI")
+				return(1);
+			if ($riga["tipo_1"] && $valore_vario =="SI")
+				return(1);
+		}
+		}
+	}
+
+	return(0);
+	
+	$conn->close();
+}
+
+function aggiornaInAllarme($valore_status)
+{
+	// Create connection
+	
+	$conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+	// Check connection
+	if ($conn->connect_error)
+	{
+		die("Connection failed: " . $conn->connect_error);
+	}
+
+	$sqlQuery = "SELECT * FROM allarme WHERE  `allarme`.`id` =1";
+	$result = $conn->query($sqlQuery);
+
+	if ($result->num_rows ==1)
+	{
+		while($riga = $result->fetch_assoc())
+		{		
+			//$sqlQueryUpdate = "UPDATE `claudio`.`allarme` SET `allarme`.`status` =$valore_status";
+			$sqlQueryUpdate = "UPDATE `claudio`.`allarme` SET `status` = '$valore_status', `in_allarme` =1  WHERE `allarme`.`id` =1";
+
+			if ($conn->query($sqlQueryUpdate) === TRUE)
+			{
+				echo "Record updated successfully". "\n";
+			}
+			else
+			{
+				echo "Error updating record: " . $conn->error. "\n";
+			}
+		}
+	}
+	
+	$conn->close();
+}		
 ?>

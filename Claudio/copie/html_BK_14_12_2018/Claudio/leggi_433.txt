@@ -1,0 +1,26 @@
+Lancio_Lettura_433
+25/10/2018 20:16:33 - [INFO] loop_leggi433: Listening for codes on GPIO 27
+25/10/2018 20:16:58 - [INFO] loop_leggi433: lettura_433|12114852|357|1
+25/10/2018 20:16:58 - [INFO] loop_leggi433: lettura_433|12114852|361|1
+25/10/2018 20:17:00 - [INFO] loop_leggi433: lettura_433|12114849|358|1
+25/10/2018 20:17:01 - [INFO] loop_leggi433: lettura_433|12114856|358|1
+25/10/2018 20:17:02 - [INFO] loop_leggi433: lettura_433|12114860|357|1
+25/10/2018 20:17:02 - [INFO] loop_leggi433: lettura_433|12114860|363|1
+25/10/2018 20:17:03 - [INFO] loop_leggi433: lettura_433|12114852|358|1
+25/10/2018 20:17:04 - [INFO] loop_leggi433: lettura_433|12114860|358|1
+25/10/2018 20:17:04 - [INFO] loop_leggi433: lettura_433|12114860|361|1
+25/10/2018 20:17:04 - [INFO] loop_leggi433: lettura_433|12114851|359|1
+25/10/2018 20:17:04 - [INFO] loop_leggi433: lettura_433|8282|213|3
+25/10/2018 20:17:05 - [INFO] loop_leggi433: lettura_433|12114852|360|1
+25/10/2018 20:17:05 - [INFO] loop_leggi433: lettura_433|12114852|362|1
+25/10/2018 20:17:05 - [INFO] loop_leggi433: lettura_433|12114852|358|1
+25/10/2018 20:17:10 - [INFO] loop_leggi433: lettura_433|480048|454|1
+25/10/2018 20:17:12 - [INFO] loop_leggi433: lettura_433|480003|454|1
+25/10/2018 20:17:15 - [INFO] loop_leggi433: lettura_433|64|907|4
+25/10/2018 20:17:18 - [INFO] loop_leggi433: lettura_433|128|1038|4
+25/10/2018 20:17:20 - [INFO] loop_leggi433: lettura_433|4|659|2
+25/10/2018 20:17:49 - [INFO] loop_leggi433: lettura_433|3584|1278|4
+25/10/2018 20:17:52 - [INFO] loop_leggi433: lettura_433|480003|453|1
+25/10/2018 20:18:01 - [INFO] loop_leggi433: lettura_433|480003|453|1
+Fase 2
+Look at it and see

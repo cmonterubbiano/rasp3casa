@@ -1,0 +1,13 @@
+************ Sequenza flusso  ***********
+Chiamando 12.168.1.205 o marietto.duckdns.org:8080
+si lancia automaticamente index.php
+				(spota la directory sotto /Claudio/)
+			Claudio/index.php
+				1 login.php (processo di identificazione
+				2 global_var.php (Variabili generiche)	
+				3 Prepara maschera di input includendo
+				  css/style.css che contiene l'include di
+					tutte gle sfondi le immagini e bottoni
+				  i valori da evidenziare sulla pagina vengono
+				  letti dal database tremite delle scritte java
+				  e varolizzate da /js/script.js
