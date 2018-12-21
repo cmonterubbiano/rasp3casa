@@ -24,7 +24,7 @@
 			$( ".window_panel_comandi_allarme_lucio_home" ).click(function() { handleClickAllarme("Home"); });
 			
 			$( ".window_panel_comandi_allarme_lucio_test_1" ).click(function() { handleClickAllarme("Tipo_1"); });
-			$( ".window_panel_comandi_allarme_lucio_test_2" ).click(function() { handleClickAllarme("Controllo"); });
+			$( ".window_panel_comandi_allarme_lucio_test_2" ).click(function() { handleClickAllarme("Test"); });
 			
 			initAutoRefresh();
 		});

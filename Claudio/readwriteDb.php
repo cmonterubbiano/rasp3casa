@@ -14,7 +14,7 @@ require_once("config.php");
 	if (isset($argv[1])) 
 	{
 		//php /var/www/html/Claudio/readwriteDb.php arduino\|termosifoni\|status\|caldini
-		logToFile($argv[1]);
+		logToFile("argv[1] -> " . $argv[1]);
 //		echo (string)$argv[1] . "\n";
 		$array_parametri = preg_split("/[|]+/", (string)$argv[1]);
 //		echo (string)$array_parametri[0] . "\n";
@@ -63,6 +63,7 @@ require_once("config.php");
 			echo "risultato: ".$result;
 			
 		}
+		// da qui inizia LUCIO
 		elseif(!strcmp($nome_arduino, "lettura_433"))
 		{
 			$valore_codice = trim ($array_parametri[1]);
@@ -89,52 +90,86 @@ require_once("config.php");
 			}
 			
 		}
-		// elseif(!strcmp($nome_arduino, "arduino_sirena"))
-		// {
-			// $valoreLetto = leggiAzioni();
-			// echo "valoreLetto: " . $valoreLetto . "\n";
-			// for(;;)
-			// {
-				// $lung =strlen($valoreLetto);
-				// echo "lunghezza inizio -> " . $lung . "\n";
+		elseif(!strcmp($nome_arduino, "allarme_spento"))
+		{
+			aggiornaStatusAllarme("SPENTO", 0, 0, 0, 0);
+		}
+		elseif(!strcmp($nome_arduino, "allarme_generale"))
+		{
+			aggiornaStatusAllarme("ACCESO", 0, 1, 0, 0);
+		}
+		elseif(!strcmp($nome_arduino, "allarme_notte"))
+		{
+			aggiornaStatusAllarme("HOME", 0, 0, 1, 0);
+		}
+		elseif(!strcmp($nome_arduino, "allarme_tipo_1"))
+		{
+			aggiornaStatusAllarme("TIPO_1", 0, 0, 0, 1);
+		}
+		elseif(!strcmp($nome_arduino, "allarme_test"))
+		{
+			aggiornaStatusAllarme("TEST", 1, 0, 0, 0);
+		}
+		elseif(!strcmp($nome_arduino, "allarme_aiuto"))
+		{
+			aggiornaInAllarme("AIUTO");
+		}
+		elseif(!strcmp($nome_arduino, "arduino_sirena"))
+		{
+			$valoreLetto = leggiSuoniSirena();
+			//echo "valoreLetto: " . $valoreLetto . "\n";
+			for(;;)
+			{
+				$lung =strlen($valoreLetto);
+				//echo "lunghezza inizio -> " . $lung . "\n";
 				
-				// if (($title =strpos($valoreLetto, '~')))
-				// {
-					// $parz =substr($valoreLetto, 0, $title);
-					// echo "posizione -> " . $title . "\n";
-					
-					// echo "porzione -> " . $parz . "\n";
-					// $result = exec('sudo /usr/bin/python /var/www/html/Claudio/arduinoWrite.py raspberry_sirena\|'.$par);
-					// sleep(10);
-					// $valoreLetto =substr($valoreLetto, $title, ($lung -$title));
-					// echo $valoreLetto;
-				// }
-				// break;
-			// }
-			// $result = exec('sudo /usr/bin/python /var/www/html/Claudio/arduinoWrite.py raspberry_sirena\|'.$valoreLetto);	
-			// echo "risultato: ".$result. "\n";
-// sleep(10);			
-			// echo "valoreLetto secondo: " . $valoreLetto . "\n";
-			// $result = exec('sudo /usr/bin/python /var/www/html/Claudio/arduinoWrite.py raspberry_sirena\|'.$valoreLetto);	
-		// }
+				if (!$lung)
+					break;
+				
+				if (($title =strpos($valoreLetto, '~')))
+				{
+					$parz =substr($valoreLetto, 0, $title);
+					echo "porzione -> " . $title . " - " . $parz . "\n";
+					logToFile($parz);
+					$result = exec('sudo /usr/bin/python /var/www/html/Claudio/arduinoWrite.py raspberry_sirena\|'.$parz);
+					sleep(2);
+					$valoreLetto =substr($valoreLetto, ($title +1), ($lung -$title));
+					//echo $valoreLetto . "\n";
+				}
+				else
+					break;
+			}
+		}
 		else
 		{
+			logToFile("Argomento non previsto");
 			echo $argv[1] . "\n";
 		}
 	}
 	elseif(isset($_REQUEST["nome_colonna"]))
 	{
-		logToFile($_REQUEST["nome_colonna"]);
 		//http://192.168.1.203/marietto/prova.php?nome_colonna=temperatura&nome_stanza=camera_ospiti&valore_colonna=98
 		//http://marietto.duckdns.org:8080/Claudio/readwriteDb.php?nome_colonna=status&nome_stanza=termosifoni&valore_colonna=%22molto%20caldi%22
 		$nome_colonna = $_REQUEST["nome_colonna"];
 		$nome_stanza = $_REQUEST["nome_stanza"];
 		$valore_colonna = $_REQUEST["valore_colonna"];
+		logToFile("nome_colonna-> " . $nome_colonna . "-" . $nome_stanza . "-" . $valore_colonna);
 		aggiornaValoriStanze($nome_colonna,$nome_stanza,$valore_colonna);
 		leggiValoriStanze();
 	}
+	// da qui inizia LUCIO
+	elseif(isset($_REQUEST["r_allarme_comando"]))
+	{
+		logToFile("r_allarme_comando-> " . $_REQUEST["r_allarme_comando"]);
+		//http://marietto.duckdns.org:8080/Claudio/readwriteDb.php?r_allarme_comando=Spegni
+		//http://192.168.1.205/Claudio/readwriteDb.php?r_allarme_comando=Spegni
+		$nome_comando = $_REQUEST["r_allarme_comando"];
+		$result = exec('sudo /usr/bin/python /var/www/html/Claudio/arduinoWrite.py '.$nome_comando);	
+		echo "risultato: ".$result;
+	}
 	else 
 	{
+		logToFile("Chiamata senza argomenti non prevista");
 		die("no signal to process");
 	}
 	
@@ -301,7 +336,6 @@ function leggiSingoloSensore($valore_codice)
 			$telefono =$riga["telefono"];
 			$sirena =$riga["sirena"];
 			$id =$riga["id"];
-			//$data =date("YMDHIS);
 			$data = date("Y-m-d H:i:s");
 			//echo "data -> " . $data . "\n";
 			
@@ -391,6 +425,70 @@ function aggiornaInAllarme($valore_status)
 			}
 		}
 	}
+	
+	$conn->close();
+}
+
+function aggiornaStatusAllarme($valore_status, $con, $gen, $not, $tip )
+{
+	// Create connection
+	
+	$conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+	// Check connection
+	if ($conn->connect_error)
+	{
+		die("Connection failed: " . $conn->connect_error);
+	}
+
+	$sqlQuery = "SELECT * FROM allarme WHERE  `allarme`.`id` =1";
+	$result = $conn->query($sqlQuery);
+
+	if ($result->num_rows ==1)
+	{
+		while($riga = $result->fetch_assoc())
+		{		
+			//$sqlQueryUpdate = "UPDATE `claudio`.`allarme` SET `allarme`.`status` =$valore_status";
+			$sqlQueryUpdate = "UPDATE `claudio`.`allarme` SET `status` = '$valore_status', `in_allarme` =0, `test` =$con, `generale` =$gen, `notte` =$not, `tipo_1` =$tip  WHERE `allarme`.`id` =1";
+
+			if ($conn->query($sqlQueryUpdate) === TRUE)
+			{
+				echo "Record updated successfully". "\n";
+			}
+			else
+			{
+				echo "Error updating record: " . $conn->error. "\n";
+			}
+		}
+	}
+	
+	$conn->close();
+}
+
+function leggiSuoniSirena()
+{
+	$rito ="";
+	// Create connection
+	
+	$conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+	// Check connection
+	if ($conn->connect_error)
+	{
+		die("Connection failed: " . $conn->connect_error);
+	}
+
+	$sqlQuery = "SELECT * FROM sirena";
+	$result = $conn->query($sqlQuery);
+
+	if ($result->num_rows >0)
+	{
+		while($riga = $result->fetch_assoc())
+		{
+			$rito .=$riga["azione"]."\|".$riga["cicli"]."\|".$riga["tempo_ciclo"]."\|".$riga["tempo_intervallo"]."~";
+			//echo $rito . "\n";
+		}
+	}
+
+	return($rito);
 	
 	$conn->close();
 }		

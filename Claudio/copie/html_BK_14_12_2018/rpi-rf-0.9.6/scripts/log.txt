@@ -1,3 +1,0 @@
-2018-09-29 08:50:47 - [INFO] rpi-rf_receive: Listening for codes on GPIO 27
-2018-09-29 08:51:40 - [INFO] rpi-rf_receive: 938755 [pulselength 455, protocol 1]
-2018-09-29 08:51:40 - [INFO] rpi-rf_receive: 480003 [pulselength 450, protocol 1]

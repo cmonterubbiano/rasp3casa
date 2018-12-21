@@ -8,7 +8,7 @@ function askDbForValues(){
 	var objParameters = {};
 	objParameters.directoryToAnalize = "prova";
 	var parameters = JSON.stringify(objParameters);
-	$.getJSON( "ajaxDbRequest.php", { message: parameters} )
+	$.getJSON( "ajaxDbRequest_lucio.php", { message: parameters} )
 	  .done(function( json ) {
 		//console.log( "JSON Data: " + json.risposta ) ;
 		//alert("ANADTA BENE");
@@ -22,9 +22,12 @@ function askDbForValues(){
 
 }
 
-function managePhpResponse(json){
-
-	$("#window_panel_camera_tutto .window_panel_allarme").html(json.allarme.status );
+function managePhpResponse(json)
+{
+	// Non sono riuscito a far accettare valore id
+	// $("#window_panel_camera_tutto .window_panel_allarme").html(json.1.status );
+	$("#window_panel_camera_tutto .window_panel_allarme").html(json.FISSA.status );
+	
 }
 
 
@@ -32,12 +35,12 @@ function managePhpResponse(json){
 
 function handleClickAllarme(comando){
 	var urlToCall = "readwriteDb.php?r_allarme_comando="+comando;
-	alert(urlToCall);
+	//alert(urlToCall);
 	$.ajax({
 		dataType: "json",
 		url: urlToCall,
 		success: function(data) {
-		alert(data);
+		//alert(data);
 		}
 	});		
 }
