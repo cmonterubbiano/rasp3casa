@@ -34,7 +34,7 @@
 		
 		<div class="container">	
 			<div class="header">
-			<a href="./index.php" class="main_menu_link"><?php echo TITLE_OF_PROJECT; ?> - MAIN MENU</a> 
+			<a href="./index_lucio.php" class="main_menu_link"><?php echo TITLE_OF_PROJECT; ?> - MAIN MENU</a> 
 			</div>
 			<div class="content">
 				<center> 

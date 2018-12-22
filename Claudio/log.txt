@@ -59101,3 +59101,2834 @@
 2018-12-21T15:30:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812211530 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
 
 2018-12-21T15:30:02+01:00 - Argomento non previsto
+2018-12-21T15:40:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812211540 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T15:40:02+01:00 - Argomento non previsto
+2018-12-21T15:50:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812211550 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T15:50:02+01:00 - Argomento non previsto
+2018-12-21T16:00:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812211600 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T16:00:02+01:00 - Argomento non previsto
+2018-12-21T16:03:19+01:00 - r_allarme_comando-> Spegni
+2018-12-21T16:03:19+01:00 - argv[1] -> allarme_spento
+
+2018-12-21T16:03:19+01:00 - argv[1] -> arduino_sirena
+
+2018-12-21T16:03:19+01:00 - SPENTO\|3\|8\|100
+2018-12-21T16:03:21+01:00 - r_allarme_comando-> Accendi
+2018-12-21T16:03:22+01:00 - ACCESO\|2\|15\|1000
+2018-12-21T16:03:24+01:00 - NOTTE\|3\|13\|3000
+2018-12-21T16:03:26+01:00 - r_allarme_comando-> Test
+2018-12-21T16:03:26+01:00 - TIPO_1\|4\|10\|4000
+2018-12-21T16:03:28+01:00 - TEST\|5\|10\|500
+2018-12-21T16:03:31+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-21T16:03:33+01:00 - AIUTO\|6\|0\|1000
+2018-12-21T16:03:55+01:00 - r_allarme_comando-> Spegni
+2018-12-21T16:03:55+01:00 - argv[1] -> allarme_spento
+
+2018-12-21T16:03:56+01:00 - argv[1] -> arduino_sirena
+
+2018-12-21T16:03:56+01:00 - SPENTO\|3\|8\|100
+2018-12-21T16:03:58+01:00 - ACCESO\|2\|15\|1000
+2018-12-21T16:04:00+01:00 - NOTTE\|3\|13\|3000
+2018-12-21T16:04:02+01:00 - TIPO_1\|4\|10\|4000
+2018-12-21T16:04:05+01:00 - TEST\|5\|10\|500
+2018-12-21T16:04:07+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-21T16:04:09+01:00 - AIUTO\|6\|0\|1000
+2018-12-21T16:04:13+01:00 - r_allarme_comando-> Test
+2018-12-21T16:04:13+01:00 - argv[1] -> allarme_test
+
+2018-12-21T16:04:22+01:00 - r_allarme_comando-> Tipo_1
+2018-12-21T16:04:22+01:00 - argv[1] -> allarme_tipo_1
+
+2018-12-21T16:04:30+01:00 - r_allarme_comando-> Test
+2018-12-21T16:04:34+01:00 - argv[1] -> allarme_test
+
+2018-12-21T16:04:44+01:00 - r_allarme_comando-> Spegni
+2018-12-21T16:04:44+01:00 - argv[1] -> allarme_spento
+
+2018-12-21T16:04:45+01:00 - r_allarme_comando-> Test
+2018-12-21T16:04:46+01:00 - argv[1] -> allarme_test
+
+2018-12-21T16:04:52+01:00 - r_allarme_comando-> Spegni
+2018-12-21T16:04:53+01:00 - argv[1] -> allarme_spento
+
+2018-12-21T16:04:53+01:00 - argv[1] -> arduino_sirena
+
+2018-12-21T16:04:53+01:00 - SPENTO\|3\|8\|100
+2018-12-21T16:04:53+01:00 - r_allarme_comando-> Tipo_1
+2018-12-21T16:04:53+01:00 - r_allarme_comando-> Tipo_1
+2018-12-21T16:04:55+01:00 - ACCESO\|2\|15\|1000
+2018-12-21T16:04:57+01:00 - NOTTE\|3\|13\|3000
+2018-12-21T16:05:00+01:00 - TIPO_1\|4\|10\|4000
+2018-12-21T16:05:02+01:00 - TEST\|5\|10\|500
+2018-12-21T16:05:04+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-21T16:05:07+01:00 - AIUTO\|6\|0\|1000
+2018-12-21T16:05:12+01:00 - r_allarme_comando-> Tipo_1
+2018-12-21T16:05:12+01:00 - argv[1] -> allarme_tipo_1
+
+2018-12-21T16:05:58+01:00 - r_allarme_comando-> Spegni
+2018-12-21T16:05:58+01:00 - argv[1] -> allarme_spento
+
+2018-12-21T16:05:59+01:00 - argv[1] -> arduino_sirena
+
+2018-12-21T16:05:59+01:00 - SPENTO\|3\|8\|100
+2018-12-21T16:06:00+01:00 - ACCESO\|2\|15\|1000
+2018-12-21T16:06:01+01:00 - NOTTE\|3\|13\|3000
+2018-12-21T16:06:02+01:00 - TIPO_1\|4\|10\|4000
+2018-12-21T16:06:04+01:00 - TEST\|5\|10\|500
+2018-12-21T16:06:05+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-21T16:06:06+01:00 - AIUTO\|6\|0\|1000
+2018-12-21T16:06:14+01:00 - r_allarme_comando-> Test
+2018-12-21T16:06:15+01:00 - argv[1] -> allarme_test
+
+2018-12-21T16:06:15+01:00 - r_allarme_comando-> Spegni
+2018-12-21T16:06:16+01:00 - r_allarme_comando-> Test
+2018-12-21T16:06:17+01:00 - argv[1] -> allarme_spento
+
+2018-12-21T16:06:17+01:00 - argv[1] -> arduino_sirena
+
+2018-12-21T16:06:17+01:00 - SPENTO\|3\|8\|100
+2018-12-21T16:06:18+01:00 - ACCESO\|2\|15\|1000
+2018-12-21T16:06:19+01:00 - NOTTE\|3\|13\|3000
+2018-12-21T16:06:21+01:00 - TIPO_1\|4\|10\|4000
+2018-12-21T16:06:22+01:00 - TEST\|5\|10\|500
+2018-12-21T16:06:23+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-21T16:06:25+01:00 - AIUTO\|6\|0\|1000
+2018-12-21T16:10:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812211610 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T16:10:02+01:00 - Argomento non previsto
+2018-12-21T16:20:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812211620 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T16:20:02+01:00 - Argomento non previsto
+2018-12-21T16:30:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812211630 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T16:30:03+01:00 - Argomento non previsto
+2018-12-21T16:40:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812211640 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T16:40:02+01:00 - Argomento non previsto
+2018-12-21T16:42:59+01:00 - nome_colonna-> luce-cucina-PPICCIATA
+2018-12-21T16:50:03+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812211650 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T16:50:03+01:00 - Argomento non previsto
+2018-12-21T16:54:15+01:00 - nome_colonna-> luce-cucinino-PPICCIATA
+2018-12-21T17:00:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812211700 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T17:00:02+01:00 - Argomento non previsto
+2018-12-21T17:10:03+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812211710 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T17:10:03+01:00 - Argomento non previsto
+2018-12-21T17:20:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812211720 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T17:20:02+01:00 - Argomento non previsto
+2018-12-21T17:30:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812211730 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T17:30:02+01:00 - Argomento non previsto
+2018-12-21T17:31:39+01:00 - nome_colonna-> luce-corridoio-PPICCIATA
+2018-12-21T17:32:11+01:00 - nome_colonna-> luce-corridoio-STUTATA
+2018-12-21T17:38:15+01:00 - nome_colonna-> luce-cucinino-STUTATA
+2018-12-21T17:38:53+01:00 - nome_colonna-> luce-bagno-PPICCIATA
+2018-12-21T17:38:56+01:00 - nome_colonna-> luce-corridoio-PPICCIATA
+2018-12-21T17:39:10+01:00 - nome_colonna-> luce-corridoio-STUTATA
+2018-12-21T17:39:16+01:00 - nome_colonna-> luce-camera_ospiti-PPICCIATA
+2018-12-21T17:40:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812211740 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T17:40:02+01:00 - Argomento non previsto
+2018-12-21T17:42:06+01:00 - nome_colonna-> luce-corridoio-PPICCIATA
+2018-12-21T17:44:20+01:00 - nome_colonna-> luce-corridoio-STUTATA
+2018-12-21T17:50:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812211750 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T17:50:02+01:00 - Argomento non previsto
+2018-12-21T17:54:37+01:00 - nome_colonna-> luce-camera-PPICCIATA
+2018-12-21T17:54:54+01:00 - nome_colonna-> luce-camera-STUTATA
+2018-12-21T17:56:53+01:00 - nome_colonna-> luce-camera_ospiti-STUTATA
+2018-12-21T17:57:33+01:00 - nome_colonna-> luce-bagno-STUTATA
+2018-12-21T17:58:31+01:00 - nome_colonna-> luce-studio-PPICCIATA
+2018-12-21T17:59:12+01:00 - nome_colonna-> luce-bagno-PPICCIATA
+2018-12-21T17:59:23+01:00 - nome_colonna-> luce-bagno-STUTATA
+2018-12-21T17:59:27+01:00 - nome_colonna-> luce-camera_ospiti-PPICCIATA
+2018-12-21T17:59:40+01:00 - nome_colonna-> luce-camera_ospiti-STUTATA
+2018-12-21T18:00:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812211800 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T18:00:02+01:00 - Argomento non previsto
+2018-12-21T18:01:11+01:00 - nome_colonna-> luce-camera_ospiti-PPICCIATA
+2018-12-21T18:01:20+01:00 - nome_colonna-> luce-camera_ospiti-STUTATA
+2018-12-21T18:01:24+01:00 - nome_colonna-> luce-studio-STUTATA
+2018-12-21T18:10:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812211810 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T18:10:02+01:00 - Argomento non previsto
+2018-12-21T18:20:03+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812211820 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T18:20:03+01:00 - Argomento non previsto
+2018-12-21T18:30:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812211830 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T18:30:02+01:00 - Argomento non previsto
+2018-12-21T18:40:03+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812211840 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T18:40:03+01:00 - Argomento non previsto
+2018-12-21T18:50:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812211850 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T18:50:02+01:00 - Argomento non previsto
+2018-12-21T18:55:11+01:00 - nome_colonna-> luce-cucina-STUTATA
+2018-12-21T18:55:17+01:00 - nome_colonna-> luce-studio-PPICCIATA
+2018-12-21T18:55:32+01:00 - nome_colonna-> luce-bagno-PPICCIATA
+2018-12-21T19:00:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812211900 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T19:00:02+01:00 - Argomento non previsto
+2018-12-21T19:07:10+01:00 - nome_colonna-> luce-bagno-STUTATA
+2018-12-21T19:07:53+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-21T19:07:53+01:00 - Argomento non previsto
+2018-12-21T19:08:07+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-21T19:08:07+01:00 - Argomento non previsto
+2018-12-21T19:08:08+01:00 - argv[1] -> allarme_spento
+
+2018-12-21T19:08:08+01:00 - argv[1] -> arduino_sirena
+
+2018-12-21T19:08:08+01:00 - SPENTO\|3\|8\|100
+2018-12-21T19:08:09+01:00 - ACCESO\|2\|15\|1000
+2018-12-21T19:08:10+01:00 - NOTTE\|3\|13\|3000
+2018-12-21T19:08:11+01:00 - TIPO_1\|4\|10\|4000
+2018-12-21T19:08:13+01:00 - TEST\|5\|10\|500
+2018-12-21T19:08:14+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-21T19:08:15+01:00 - AIUTO\|6\|0\|1000
+2018-12-21T19:10:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812211910 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T19:10:02+01:00 - Argomento non previsto
+2018-12-21T19:11:51+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-21T19:11:51+01:00 - Argomento non previsto
+2018-12-21T19:12:05+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-21T19:12:05+01:00 - Argomento non previsto
+2018-12-21T19:12:06+01:00 - argv[1] -> allarme_spento
+
+2018-12-21T19:12:06+01:00 - argv[1] -> arduino_sirena
+
+2018-12-21T19:12:06+01:00 - SPENTO\|3\|8\|100
+2018-12-21T19:12:07+01:00 - ACCESO\|2\|15\|1000
+2018-12-21T19:12:08+01:00 - NOTTE\|3\|13\|3000
+2018-12-21T19:12:09+01:00 - TIPO_1\|4\|10\|4000
+2018-12-21T19:12:11+01:00 - TEST\|5\|10\|500
+2018-12-21T19:12:12+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-21T19:12:13+01:00 - AIUTO\|6\|0\|1000
+2018-12-21T19:20:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812211920 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T19:20:02+01:00 - Argomento non previsto
+2018-12-21T19:27:47+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812211927 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T19:27:47+01:00 - Argomento non previsto
+2018-12-21T19:28:17+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812211928 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T19:28:17+01:00 - Argomento non previsto
+2018-12-21T19:30:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812211930 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T19:30:02+01:00 - Argomento non previsto
+2018-12-21T19:40:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812211940 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T19:40:02+01:00 - Argomento non previsto
+2018-12-21T19:50:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812211950 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T19:50:02+01:00 - Argomento non previsto
+2018-12-21T19:51:00+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812211950 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T19:51:00+01:00 - Argomento non previsto
+2018-12-21T20:00:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812212000 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T20:00:02+01:00 - Argomento non previsto
+2018-12-21T20:04:05+01:00 - argv[1] -> Lancio_Lettura_433
+2018-12-21T20:04:05+01:00 - Argomento non previsto
+2018-12-21T20:04:06+01:00 - argv[1] -> lettura_433|9151394|338|1
+2018-12-21T20:10:03+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812212010 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T20:10:03+01:00 - Argomento non previsto
+2018-12-21T20:17:48+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812212017 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T20:17:48+01:00 - Argomento non previsto
+2018-12-21T20:20:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812212020 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T20:20:02+01:00 - Argomento non previsto
+2018-12-21T20:21:39+01:00 - nome_colonna-> luce-cucina-PPICCIATA
+2018-12-21T20:21:56+01:00 - nome_colonna-> luce-camera_ospiti-PPICCIATA
+2018-12-21T20:22:39+01:00 - nome_colonna-> luce-cucinino-PPICCIATA
+2018-12-21T20:30:03+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812212030 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T20:30:03+01:00 - Argomento non previsto
+2018-12-21T20:35:58+01:00 - nome_colonna-> luce-camera_ospiti-STUTATA
+2018-12-21T20:36:04+01:00 - nome_colonna-> luce-studio-STUTATA
+2018-12-21T20:36:58+01:00 - nome_colonna-> luce-corridoio-PPICCIATA
+2018-12-21T20:38:43+01:00 - nome_colonna-> luce-bagno-PPICCIATA
+2018-12-21T20:39:15+01:00 - nome_colonna-> luce-bagno-STUTATA
+2018-12-21T20:39:17+01:00 - nome_colonna-> luce-corridoio-STUTATA
+2018-12-21T20:40:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812212040 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T20:40:02+01:00 - Argomento non previsto
+2018-12-21T20:40:11+01:00 - nome_colonna-> luce-cucinino-STUTATA
+2018-12-21T20:42:34+01:00 - nome_colonna-> luce-cucinino-PPICCIATA
+2018-12-21T20:42:40+01:00 - nome_colonna-> luce-cucinino-STUTATA
+2018-12-21T20:50:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812212050 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T20:50:02+01:00 - Argomento non previsto
+2018-12-21T20:54:13+01:00 - nome_colonna-> luce-cucinino-PPICCIATA
+2018-12-21T20:57:42+01:00 - nome_colonna-> luce-cucinino-STUTATA
+2018-12-21T21:00:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812212100 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T21:00:02+01:00 - Argomento non previsto
+2018-12-21T21:05:35+01:00 - nome_colonna-> luce-bagno-PPICCIATA
+2018-12-21T21:07:16+01:00 - nome_colonna-> luce-corridoio-PPICCIATA
+2018-12-21T21:07:18+01:00 - nome_colonna-> luce-bagno-STUTATA
+2018-12-21T21:07:35+01:00 - nome_colonna-> luce-studio-PPICCIATA
+2018-12-21T21:08:12+01:00 - nome_colonna-> luce-cucinino-PPICCIATA
+2018-12-21T21:08:22+01:00 - nome_colonna-> luce-studio-STUTATA
+2018-12-21T21:08:39+01:00 - nome_colonna-> luce-cucinino-STUTATA
+2018-12-21T21:09:12+01:00 - nome_colonna-> status-termosifoni-PICCIATI
+2018-12-21T21:09:58+01:00 - nome_colonna-> luce-corridoio-STUTATA
+2018-12-21T21:10:01+01:00 - nome_colonna-> luce-corridoio-PPICCIATA
+2018-12-21T21:10:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812212110 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T21:10:02+01:00 - Argomento non previsto
+2018-12-21T21:12:31+01:00 - nome_colonna-> luce-corridoio-STUTATA
+2018-12-21T21:16:12+01:00 - nome_colonna-> luce-bagno-PPICCIATA
+2018-12-21T21:16:44+01:00 - nome_colonna-> luce-camera_ospiti-PPICCIATA
+2018-12-21T21:18:19+01:00 - nome_colonna-> luce-corridoio-PPICCIATA
+2018-12-21T21:19:58+01:00 - nome_colonna-> luce-camera_ospiti-STUTATA
+2018-12-21T21:20:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812212120 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T21:20:02+01:00 - Argomento non previsto
+2018-12-21T21:20:03+01:00 - nome_colonna-> luce-bagno-STUTATA
+2018-12-21T21:22:13+01:00 - nome_colonna-> luce-cucinino-PPICCIATA
+2018-12-21T21:22:47+01:00 - nome_colonna-> luce-sala-PPICCIATA
+2018-12-21T21:30:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812212130 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T21:30:02+01:00 - Argomento non previsto
+2018-12-21T21:30:19+01:00 - nome_colonna-> luce-sala-STUTATA
+2018-12-21T21:40:03+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812212140 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T21:40:03+01:00 - Argomento non previsto
+2018-12-21T21:50:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812212150 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T21:50:02+01:00 - Argomento non previsto
+2018-12-21T22:00:03+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812212200 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T22:00:03+01:00 - Argomento non previsto
+2018-12-21T22:10:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812212210 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T22:10:02+01:00 - Argomento non previsto
+2018-12-21T22:20:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812212220 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T22:20:02+01:00 - Argomento non previsto
+2018-12-21T22:30:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812212230 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T22:30:02+01:00 - Argomento non previsto
+2018-12-21T22:40:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812212240 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T22:40:02+01:00 - Argomento non previsto
+2018-12-21T22:40:57+01:00 - nome_colonna-> luce-corridoio-STUTATA
+2018-12-21T22:50:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812212250 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T22:50:02+01:00 - Argomento non previsto
+2018-12-21T23:00:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812212300 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T23:00:02+01:00 - Argomento non previsto
+2018-12-21T23:10:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812212310 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T23:10:02+01:00 - Argomento non previsto
+2018-12-21T23:18:02+01:00 - nome_colonna-> luce-cucinino-STUTATA
+2018-12-21T23:18:07+01:00 - nome_colonna-> luce-cucinino-PPICCIATA
+2018-12-21T23:18:20+01:00 - nome_colonna-> luce-cucinino-STUTATA
+2018-12-21T23:18:33+01:00 - nome_colonna-> luce-corridoio-PPICCIATA
+2018-12-21T23:19:36+01:00 - nome_colonna-> luce-bagno-PPICCIATA
+2018-12-21T23:19:38+01:00 - nome_colonna-> luce-corridoio-STUTATA
+2018-12-21T23:19:44+01:00 - nome_colonna-> luce-camera_ospiti-PPICCIATA
+2018-12-21T23:19:57+01:00 - nome_colonna-> luce-corridoio-PPICCIATA
+2018-12-21T23:20:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812212320 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T23:20:02+01:00 - Argomento non previsto
+2018-12-21T23:20:17+01:00 - nome_colonna-> luce-camera_ospiti-STUTATA
+2018-12-21T23:20:19+01:00 - nome_colonna-> luce-camera_ospiti-PPICCIATA
+2018-12-21T23:30:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812212330 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T23:30:02+01:00 - Argomento non previsto
+2018-12-21T23:39:09+01:00 - nome_colonna-> luce-camera_ospiti-STUTATA
+2018-12-21T23:40:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812212340 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T23:40:02+01:00 - Argomento non previsto
+2018-12-21T23:42:43+01:00 - nome_colonna-> status-termosifoni-STUTATI
+2018-12-21T23:49:58+01:00 - nome_colonna-> luce-corridoio-STUTATA
+2018-12-21T23:50:03+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812212350 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-21T23:50:03+01:00 - Argomento non previsto
+2018-12-22T00:00:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220000 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T00:00:02+01:00 - Argomento non previsto
+2018-12-22T00:10:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220010 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T00:10:02+01:00 - Argomento non previsto
+2018-12-22T00:13:36+01:00 - nome_colonna-> luce-cucinino-PPICCIATA
+2018-12-22T00:14:06+01:00 - nome_colonna-> luce-cucinino-STUTATA
+2018-12-22T00:20:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220020 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T00:20:02+01:00 - Argomento non previsto
+2018-12-22T00:30:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220030 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T00:30:02+01:00 - Argomento non previsto
+2018-12-22T00:40:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220040 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T00:40:02+01:00 - Argomento non previsto
+2018-12-22T00:41:06+01:00 - nome_colonna-> luce-studio-PPICCIATA
+2018-12-22T00:41:24+01:00 - nome_colonna-> luce-cucinino-PPICCIATA
+2018-12-22T00:41:49+01:00 - nome_colonna-> luce-studio-STUTATA
+2018-12-22T00:42:26+01:00 - nome_colonna-> luce-cucinino-STUTATA
+2018-12-22T00:42:44+01:00 - nome_colonna-> luce-cucina-STUTATA
+2018-12-22T00:43:11+01:00 - nome_colonna-> luce-camera_ospiti-STUTATA
+2018-12-22T00:43:16+01:00 - nome_colonna-> luce-cucina-PPICCIATA
+2018-12-22T00:43:20+01:00 - nome_colonna-> luce-cucinino-PPICCIATA
+2018-12-22T00:43:47+01:00 - nome_colonna-> luce-cucinino-STUTATA
+2018-12-22T00:43:56+01:00 - nome_colonna-> luce-cucina-STUTATA
+2018-12-22T00:45:22+01:00 - nome_colonna-> luce-bagno-STUTATA
+2018-12-22T00:50:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220050 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T00:50:02+01:00 - Argomento non previsto
+2018-12-22T01:00:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220100 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T01:00:02+01:00 - Argomento non previsto
+2018-12-22T01:10:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220110 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T01:10:02+01:00 - Argomento non previsto
+2018-12-22T01:20:03+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220120 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T01:20:03+01:00 - Argomento non previsto
+2018-12-22T01:30:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220130 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T01:30:02+01:00 - Argomento non previsto
+2018-12-22T01:40:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220140 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T01:40:02+01:00 - Argomento non previsto
+2018-12-22T01:50:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220150 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T01:50:02+01:00 - Argomento non previsto
+2018-12-22T01:53:13+01:00 - nome_colonna-> luce-camera_ospiti-PPICCIATA
+2018-12-22T02:00:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220200 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T02:00:02+01:00 - Argomento non previsto
+2018-12-22T02:10:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220210 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T02:10:02+01:00 - Argomento non previsto
+2018-12-22T02:20:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220220 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T02:20:02+01:00 - Argomento non previsto
+2018-12-22T02:30:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220230 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T02:30:02+01:00 - Argomento non previsto
+2018-12-22T02:40:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220240 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T02:40:02+01:00 - Argomento non previsto
+2018-12-22T02:50:03+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220250 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T02:50:03+01:00 - Argomento non previsto
+2018-12-22T03:00:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220300 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T03:00:02+01:00 - Argomento non previsto
+2018-12-22T03:10:03+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220310 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T03:10:03+01:00 - Argomento non previsto
+2018-12-22T03:20:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220320 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T03:20:02+01:00 - Argomento non previsto
+2018-12-22T03:30:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220330 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T03:30:02+01:00 - Argomento non previsto
+2018-12-22T03:40:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220340 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T03:40:02+01:00 - Argomento non previsto
+2018-12-22T03:50:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220350 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T03:50:02+01:00 - Argomento non previsto
+2018-12-22T04:00:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220400 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T04:00:02+01:00 - Argomento non previsto
+2018-12-22T04:10:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220410 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T04:10:02+01:00 - Argomento non previsto
+2018-12-22T04:20:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220420 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T04:20:02+01:00 - Argomento non previsto
+2018-12-22T04:30:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220430 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T04:30:02+01:00 - Argomento non previsto
+2018-12-22T04:40:03+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220440 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T04:40:03+01:00 - Argomento non previsto
+2018-12-22T04:50:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220450 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T04:50:02+01:00 - Argomento non previsto
+2018-12-22T05:00:03+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220500 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T05:00:03+01:00 - Argomento non previsto
+2018-12-22T05:10:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220510 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T05:10:02+01:00 - Argomento non previsto
+2018-12-22T05:20:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220520 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T05:20:02+01:00 - Argomento non previsto
+2018-12-22T05:30:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220530 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T05:30:02+01:00 - Argomento non previsto
+2018-12-22T05:40:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220540 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T05:40:02+01:00 - Argomento non previsto
+2018-12-22T05:50:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220550 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T05:50:02+01:00 - Argomento non previsto
+2018-12-22T06:00:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220600 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T06:00:02+01:00 - Argomento non previsto
+2018-12-22T06:10:03+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220610 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T06:10:03+01:00 - Argomento non previsto
+2018-12-22T06:20:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220620 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T06:20:02+01:00 - Argomento non previsto
+2018-12-22T06:30:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220630 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T06:30:02+01:00 - Argomento non previsto
+2018-12-22T06:40:03+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220640 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T06:40:03+01:00 - Argomento non previsto
+2018-12-22T06:50:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220650 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T06:50:02+01:00 - Argomento non previsto
+2018-12-22T07:00:03+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220700 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T07:00:03+01:00 - Argomento non previsto
+2018-12-22T07:10:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220710 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T07:10:02+01:00 - Argomento non previsto
+2018-12-22T07:20:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220720 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T07:20:02+01:00 - Argomento non previsto
+2018-12-22T07:30:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220730 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T07:30:02+01:00 - Argomento non previsto
+2018-12-22T07:40:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220740 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T07:40:02+01:00 - Argomento non previsto
+2018-12-22T07:40:09+01:00 - nome_colonna-> luce-bagno-PPICCIATA
+2018-12-22T07:45:52+01:00 - nome_colonna-> luce-bagno-STUTATA
+2018-12-22T07:50:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220750 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T07:50:02+01:00 - Argomento non previsto
+2018-12-22T08:00:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220800 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T08:00:02+01:00 - Argomento non previsto
+2018-12-22T08:10:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220810 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T08:10:02+01:00 - Argomento non previsto
+2018-12-22T08:20:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220820 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T08:20:02+01:00 - Argomento non previsto
+2018-12-22T08:30:03+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220830 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T08:30:03+01:00 - Argomento non previsto
+2018-12-22T08:39:34+01:00 - nome_colonna-> status-termosifoni-PICCIATI
+2018-12-22T08:40:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220840 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T08:40:02+01:00 - Argomento non previsto
+2018-12-22T08:50:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220850 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T08:50:02+01:00 - Argomento non previsto
+2018-12-22T08:52:19+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|allarme|TEST => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T08:52:19+01:00 - Argomento non previsto
+2018-12-22T08:52:20+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|allarme|TEST_HOME => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T08:52:20+01:00 - Argomento non previsto
+2018-12-22T08:52:22+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|allarme|TEST_HOME => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T08:52:22+01:00 - Argomento non previsto
+2018-12-22T08:52:23+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|allarme|TEST_HOME => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T08:52:23+01:00 - Argomento non previsto
+2018-12-22T09:00:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220900 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T09:00:02+01:00 - Argomento non previsto
+2018-12-22T09:10:02+01:00 - argv[1] -> Coad iet tl.Adi/NTE[et Sen][ao [it][lre..]
+
+2018-12-22T09:10:02+01:00 - Argomento non previsto
+2018-12-22T09:12:35+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T09:12:35+01:00 - Argomento non previsto
+2018-12-22T09:12:50+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T09:12:50+01:00 - Argomento non previsto
+2018-12-22T09:12:50+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T09:12:50+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T09:12:50+01:00 - SPENTO\|3\|8\|100
+2018-12-22T09:12:51+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T09:12:52+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T09:12:54+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T09:12:55+01:00 - TEST\|5\|10\|500
+2018-12-22T09:12:56+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T09:12:58+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T09:18:13+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T09:18:13+01:00 - Argomento non previsto
+2018-12-22T09:18:28+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T09:18:28+01:00 - Argomento non previsto
+2018-12-22T09:18:28+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T09:18:28+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T09:18:28+01:00 - SPENTO\|3\|8\|100
+2018-12-22T09:18:30+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T09:18:31+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T09:18:32+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T09:18:34+01:00 - TEST\|5\|10\|500
+2018-12-22T09:18:35+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T09:18:36+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T09:20:03+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T09:20:03+01:00 - Argomento non previsto
+2018-12-22T09:20:18+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T09:20:18+01:00 - Argomento non previsto
+2018-12-22T09:20:18+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T09:20:18+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T09:20:18+01:00 - SPENTO\|3\|8\|100
+2018-12-22T09:20:19+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T09:20:21+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T09:20:22+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T09:20:23+01:00 - TEST\|5\|10\|500
+2018-12-22T09:20:24+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T09:20:26+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T09:30:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220930 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T09:30:02+01:00 - Argomento non previsto
+2018-12-22T09:40:03+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220940 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T09:40:03+01:00 - Argomento non previsto
+2018-12-22T09:50:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812220950 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T09:50:02+01:00 - Argomento non previsto
+2018-12-22T10:00:03+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221000 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T10:00:03+01:00 - Argomento non previsto
+2018-12-22T10:04:29+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T10:04:29+01:00 - Argomento non previsto
+2018-12-22T10:04:44+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T10:04:44+01:00 - Argomento non previsto
+2018-12-22T10:04:44+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T10:04:44+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T10:04:44+01:00 - SPENTO\|3\|8\|100
+2018-12-22T10:04:46+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T10:04:47+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T10:04:48+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T10:04:49+01:00 - TEST\|5\|10\|500
+2018-12-22T10:04:51+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T10:04:52+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T10:07:10+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T10:07:10+01:00 - Argomento non previsto
+2018-12-22T10:07:25+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T10:07:25+01:00 - Argomento non previsto
+2018-12-22T10:07:25+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T10:07:25+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T10:07:25+01:00 - SPENTO\|3\|8\|100
+2018-12-22T10:07:27+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T10:07:28+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T10:07:29+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T10:07:30+01:00 - TEST\|5\|10\|500
+2018-12-22T10:07:32+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T10:07:33+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T10:07:42+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T10:07:42+01:00 - Argomento non previsto
+2018-12-22T10:07:57+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T10:07:57+01:00 - Argomento non previsto
+2018-12-22T10:07:57+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T10:07:57+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T10:07:57+01:00 - SPENTO\|3\|8\|100
+2018-12-22T10:07:58+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T10:07:59+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T10:08:01+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T10:08:02+01:00 - TEST\|5\|10\|500
+2018-12-22T10:08:03+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T10:08:05+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T10:09:04+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T10:09:04+01:00 - Argomento non previsto
+2018-12-22T10:09:19+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T10:09:19+01:00 - Argomento non previsto
+2018-12-22T10:09:19+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T10:09:19+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T10:09:19+01:00 - SPENTO\|3\|8\|100
+2018-12-22T10:09:20+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T10:09:21+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T10:09:23+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T10:09:24+01:00 - TEST\|5\|10\|500
+2018-12-22T10:09:25+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T10:09:27+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T10:10:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221010 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T10:10:02+01:00 - Argomento non previsto
+2018-12-22T10:14:33+01:00 - argv[1] -> Lancio_Lettura_433
+2018-12-22T10:14:33+01:00 - Argomento non previsto
+2018-12-22T10:14:44+01:00 - argv[1] -> lettura_433|*
+2018-12-22T10:16:50+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T10:16:50+01:00 - Argomento non previsto
+2018-12-22T10:17:05+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T10:17:05+01:00 - Argomento non previsto
+2018-12-22T10:17:05+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T10:17:05+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T10:17:05+01:00 - SPENTO\|3\|8\|100
+2018-12-22T10:17:07+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T10:17:08+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T10:17:09+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T10:17:10+01:00 - TEST\|5\|10\|500
+2018-12-22T10:17:12+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T10:17:13+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T10:17:54+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T10:17:54+01:00 - Argomento non previsto
+2018-12-22T10:18:09+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T10:18:09+01:00 - Argomento non previsto
+2018-12-22T10:18:09+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T10:18:09+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T10:18:09+01:00 - SPENTO\|3\|8\|100
+2018-12-22T10:18:10+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T10:18:11+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T10:18:13+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T10:18:14+01:00 - TEST\|5\|10\|500
+2018-12-22T10:18:15+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T10:18:17+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T10:20:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221020 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T10:20:02+01:00 - Argomento non previsto
+2018-12-22T10:23:05+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T10:23:05+01:00 - Argomento non previsto
+2018-12-22T10:23:19+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T10:23:19+01:00 - Argomento non previsto
+2018-12-22T10:23:20+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T10:23:20+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T10:23:20+01:00 - SPENTO\|3\|8\|100
+2018-12-22T10:23:21+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T10:23:22+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T10:23:24+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T10:23:25+01:00 - TEST\|5\|10\|500
+2018-12-22T10:23:26+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T10:23:28+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T10:24:27+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T10:24:27+01:00 - Argomento non previsto
+2018-12-22T10:24:42+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T10:24:42+01:00 - Argomento non previsto
+2018-12-22T10:24:42+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T10:24:42+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T10:24:42+01:00 - SPENTO\|3\|8\|100
+2018-12-22T10:24:43+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T10:24:44+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T10:24:46+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T10:24:47+01:00 - TEST\|5\|10\|500
+2018-12-22T10:24:48+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T10:24:50+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T10:29:51+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T10:29:51+01:00 - Argomento non previsto
+2018-12-22T10:30:06+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T10:30:06+01:00 - Argomento non previsto
+2018-12-22T10:30:06+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T10:30:07+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T10:30:07+01:00 - SPENTO\|3\|8\|100
+2018-12-22T10:30:08+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T10:30:09+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T10:30:10+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T10:30:12+01:00 - TEST\|5\|10\|500
+2018-12-22T10:30:13+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T10:30:14+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T10:38:43+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T10:38:44+01:00 - Argomento non previsto
+2018-12-22T10:38:57+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T10:38:57+01:00 - Argomento non previsto
+2018-12-22T10:38:57+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T10:38:57+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T10:38:57+01:00 - SPENTO\|3\|8\|100
+2018-12-22T10:38:59+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T10:39:00+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T10:39:24+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T10:39:26+01:00 - TEST\|5\|10\|500
+2018-12-22T10:39:27+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T10:39:28+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T10:40:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221040 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T10:40:02+01:00 - Argomento non previsto
+2018-12-22T10:50:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221050 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T10:50:02+01:00 - Argomento non previsto
+2018-12-22T10:50:18+01:00 - r_allarme_comando-> Spegni
+2018-12-22T10:50:19+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T10:50:19+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T10:50:19+01:00 - SPENTO\|3\|8\|100
+2018-12-22T10:50:20+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T10:50:20+01:00 - r_allarme_comando-> Accendi
+2018-12-22T10:50:22+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T10:50:23+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T10:50:24+01:00 - r_allarme_comando-> Accendi
+2018-12-22T10:50:24+01:00 - TEST\|5\|10\|500
+2018-12-22T10:50:25+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T10:50:27+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T10:50:28+01:00 - r_allarme_comando-> Home
+2018-12-22T10:50:28+01:00 - argv[1] -> allarme_notte
+
+2018-12-22T10:50:37+01:00 - r_allarme_comando-> Tipo_1
+2018-12-22T10:50:38+01:00 - argv[1] -> allarme_tipo_1
+
+2018-12-22T10:50:55+01:00 - r_allarme_comando-> Test
+2018-12-22T10:50:55+01:00 - argv[1] -> allarme_test
+
+2018-12-22T10:51:00+01:00 - r_allarme_comando-> Tipo_1
+2018-12-22T10:51:00+01:00 - argv[1] -> allarme_tipo_1
+
+2018-12-22T10:51:20+01:00 - r_allarme_comando-> Accendi
+2018-12-22T10:51:20+01:00 - argv[1] -> allarme_generale
+
+2018-12-22T10:51:26+01:00 - r_allarme_comando-> Home
+2018-12-22T10:51:26+01:00 - argv[1] -> allarme_notte
+
+2018-12-22T10:51:39+01:00 - r_allarme_comando-> Test
+2018-12-22T10:51:39+01:00 - argv[1] -> allarme_test
+
+2018-12-22T10:51:43+01:00 - r_allarme_comando-> Tipo_1
+2018-12-22T10:51:43+01:00 - argv[1] -> allarme_tipo_1
+
+2018-12-22T11:00:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221100 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T11:00:02+01:00 - Argomento non previsto
+2018-12-22T11:10:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221110 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T11:10:02+01:00 - Argomento non previsto
+2018-12-22T11:20:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221120 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T11:20:02+01:00 - Argomento non previsto
+2018-12-22T11:30:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221130 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T11:30:02+01:00 - Argomento non previsto
+2018-12-22T11:40:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221140 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T11:40:02+01:00 - Argomento non previsto
+2018-12-22T11:50:03+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221150 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T11:50:03+01:00 - Argomento non previsto
+2018-12-22T12:00:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221200 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T12:00:02+01:00 - Argomento non previsto
+2018-12-22T12:10:03+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221210 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T12:10:03+01:00 - Argomento non previsto
+2018-12-22T12:20:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221220 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T12:20:02+01:00 - Argomento non previsto
+2018-12-22T12:28:46+01:00 - nome_colonna-> status-termosifoni-STUTATI
+2018-12-22T12:30:03+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221230 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T12:30:03+01:00 - Argomento non previsto
+2018-12-22T12:40:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221240 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T12:40:02+01:00 - Argomento non previsto
+2018-12-22T12:45:15+01:00 - r_allarme_comando-> Spegni
+2018-12-22T12:45:15+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T12:45:15+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T12:45:15+01:00 - SPENTO\|3\|8\|100
+2018-12-22T12:45:16+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T12:45:18+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T12:45:19+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T12:45:20+01:00 - TEST\|5\|10\|500
+2018-12-22T12:45:22+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T12:45:23+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T12:50:19+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T12:50:19+01:00 - Argomento non previsto
+2018-12-22T12:50:59+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T12:50:59+01:00 - Argomento non previsto
+2018-12-22T12:50:59+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T12:50:59+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T12:50:59+01:00 - SPENTO\|3\|8\|100
+2018-12-22T12:51:00+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T12:51:01+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T12:51:03+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T12:51:04+01:00 - TEST\|5\|10\|500
+2018-12-22T12:51:05+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T12:51:07+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T13:00:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221300 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T13:00:02+01:00 - Argomento non previsto
+2018-12-22T13:02:21+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T13:02:21+01:00 - Argomento non previsto
+2018-12-22T13:02:36+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T13:02:36+01:00 - Argomento non previsto
+2018-12-22T13:02:36+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T13:02:36+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T13:02:36+01:00 - SPENTO\|3\|8\|100
+2018-12-22T13:02:37+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T13:02:39+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T13:02:40+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T13:02:41+01:00 - TEST\|5\|10\|500
+2018-12-22T13:02:43+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T13:02:44+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T13:10:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221310 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T13:10:02+01:00 - Argomento non previsto
+2018-12-22T13:20:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221320 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T13:20:02+01:00 - Argomento non previsto
+2018-12-22T13:30:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221330 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T13:30:02+01:00 - Argomento non previsto
+2018-12-22T13:40:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221340 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T13:40:02+01:00 - Argomento non previsto
+2018-12-22T13:50:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221350 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T13:50:02+01:00 - Argomento non previsto
+2018-12-22T14:00:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221400 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T14:00:02+01:00 - Argomento non previsto
+2018-12-22T14:05:41+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T14:05:41+01:00 - Argomento non previsto
+2018-12-22T14:05:56+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T14:05:56+01:00 - Argomento non previsto
+2018-12-22T14:05:56+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T14:05:56+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T14:05:56+01:00 - SPENTO\|3\|8\|100
+2018-12-22T14:05:57+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T14:05:59+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T14:06:00+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T14:06:01+01:00 - TEST\|5\|10\|500
+2018-12-22T14:06:02+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T14:06:04+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T14:07:40+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T14:07:40+01:00 - Argomento non previsto
+2018-12-22T14:07:55+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T14:07:55+01:00 - Argomento non previsto
+2018-12-22T14:07:55+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T14:07:55+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T14:07:55+01:00 - SPENTO\|3\|8\|100
+2018-12-22T14:07:57+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T14:07:58+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T14:07:59+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T14:08:01+01:00 - TEST\|5\|10\|500
+2018-12-22T14:08:02+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T14:08:03+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T14:10:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221410 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T14:10:02+01:00 - Argomento non previsto
+2018-12-22T14:20:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221420 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T14:20:02+01:00 - Argomento non previsto
+2018-12-22T14:25:34+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T14:25:34+01:00 - Argomento non previsto
+2018-12-22T14:25:49+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T14:25:49+01:00 - Argomento non previsto
+2018-12-22T14:25:49+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T14:25:49+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T14:25:49+01:00 - SPENTO\|3\|8\|100
+2018-12-22T14:25:51+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T14:25:52+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T14:25:53+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T14:25:55+01:00 - TEST\|5\|10\|500
+2018-12-22T14:25:56+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T14:25:57+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T14:30:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221430 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T14:30:03+01:00 - Argomento non previsto
+2018-12-22T14:40:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221440 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T14:40:02+01:00 - Argomento non previsto
+2018-12-22T14:45:52+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T14:45:52+01:00 - Argomento non previsto
+2018-12-22T14:48:38+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T14:48:38+01:00 - Argomento non previsto
+2018-12-22T14:48:53+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T14:48:53+01:00 - Argomento non previsto
+2018-12-22T14:48:53+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T14:48:53+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T14:48:53+01:00 - SPENTO\|3\|8\|100
+2018-12-22T14:48:54+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T14:48:56+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T14:48:57+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T14:48:58+01:00 - TEST\|5\|10\|500
+2018-12-22T14:48:59+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T14:49:01+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T14:50:03+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221450 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T14:50:03+01:00 - Argomento non previsto
+2018-12-22T14:52:04+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T14:52:04+01:00 - Argomento non previsto
+2018-12-22T14:52:19+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T14:52:19+01:00 - Argomento non previsto
+2018-12-22T14:52:19+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T14:52:19+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T14:52:19+01:00 - SPENTO\|3\|8\|100
+2018-12-22T14:52:20+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T14:52:22+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T14:52:23+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T14:52:24+01:00 - TEST\|5\|10\|500
+2018-12-22T14:52:25+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T14:52:27+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T14:52:37+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T14:52:37+01:00 - Argomento non previsto
+2018-12-22T14:52:52+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T14:52:52+01:00 - Argomento non previsto
+2018-12-22T14:52:52+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T14:52:52+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T14:52:52+01:00 - SPENTO\|3\|8\|100
+2018-12-22T14:52:53+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T14:52:54+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T14:52:56+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T14:52:57+01:00 - TEST\|5\|10\|500
+2018-12-22T14:52:58+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T14:53:00+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T14:55:27+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T14:55:27+01:00 - Argomento non previsto
+2018-12-22T14:55:40+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T14:55:40+01:00 - Argomento non previsto
+2018-12-22T14:55:55+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T14:55:55+01:00 - Argomento non previsto
+2018-12-22T14:55:55+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T14:55:55+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T14:55:55+01:00 - SPENTO\|3\|8\|100
+2018-12-22T14:55:56+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T14:55:57+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T14:55:59+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T14:56:00+01:00 - TEST\|5\|10\|500
+2018-12-22T14:56:01+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T14:56:03+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T15:00:02+01:00 - argv[1] -> eriale]: raspberry|temperatura|2[NOTTE] [Test] [Spegni] [Stato] m..]
+
+2018-12-22T15:00:02+01:00 - Argomento non previsto
+2018-12-22T15:02:42+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T15:02:42+01:00 - Argomento non previsto
+2018-12-22T15:02:57+01:00 - argv[1] -> 0=>STTU ouoGM=POT
+
+2018-12-22T15:02:57+01:00 - argv[1] -> 0 ASMdl S  RNOallarme_spento
+
+2018-12-22T15:02:57+01:00 - Argomento non previsto
+2018-12-22T15:02:57+01:00 - Argomento non previsto
+2018-12-22T15:02:57+01:00 - argv[1] -> un_iea
+
+2018-12-22T15:02:57+01:00 - Argomento non previsto
+2018-12-22T15:04:55+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T15:04:55+01:00 - Argomento non previsto
+2018-12-22T15:05:10+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T15:05:10+01:00 - Argomento non previsto
+2018-12-22T15:05:10+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T15:05:10+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T15:05:10+01:00 - SPENTO\|3\|8\|100
+2018-12-22T15:05:11+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T15:05:13+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T15:05:14+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T15:05:15+01:00 - TEST\|5\|10\|500
+2018-12-22T15:05:16+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T15:05:18+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T15:08:29+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T15:08:29+01:00 - Argomento non previsto
+2018-12-22T15:08:57+01:00 - argv[1] -> 
+
+2018-12-22T15:08:57+01:00 - Argomento non previsto
+2018-12-22T15:08:57+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T15:08:58+01:00 - argv[1] -> arduino_sirenaATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T15:08:58+01:00 - Argomento non previsto
+2018-12-22T15:09:13+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T15:09:13+01:00 - Argomento non previsto
+2018-12-22T15:09:13+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T15:09:13+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T15:09:13+01:00 - SPENTO\|3\|8\|100
+2018-12-22T15:09:14+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T15:09:15+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T15:09:17+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T15:09:18+01:00 - TEST\|5\|10\|500
+2018-12-22T15:09:19+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T15:09:21+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T15:09:52+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T15:09:52+01:00 - Argomento non previsto
+2018-12-22T15:10:07+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T15:10:07+01:00 - Argomento non previsto
+2018-12-22T15:10:07+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T15:10:07+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T15:10:07+01:00 - SPENTO\|3\|8\|100
+2018-12-22T15:10:09+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T15:10:10+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T15:10:11+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T15:10:12+01:00 - TEST\|5\|10\|500
+2018-12-22T15:10:14+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T15:10:15+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T15:11:28+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T15:11:28+01:00 - Argomento non previsto
+2018-12-22T15:11:43+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T15:11:43+01:00 - Argomento non previsto
+2018-12-22T15:11:43+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T15:11:43+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T15:11:43+01:00 - SPENTO\|3\|8\|100
+2018-12-22T15:11:44+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T15:11:46+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T15:11:47+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T15:11:48+01:00 - TEST\|5\|10\|500
+2018-12-22T15:11:49+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T15:11:51+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T15:15:11+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T15:15:11+01:00 - Argomento non previsto
+2018-12-22T15:15:26+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T15:15:26+01:00 - Argomento non previsto
+2018-12-22T15:15:26+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T15:15:26+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T15:15:27+01:00 - SPENTO\|3\|8\|100
+2018-12-22T15:15:28+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T15:15:29+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T15:15:30+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T15:15:32+01:00 - TEST\|5\|10\|500
+2018-12-22T15:15:33+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T15:15:34+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T15:15:51+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T15:15:51+01:00 - Argomento non previsto
+2018-12-22T15:16:06+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T15:16:06+01:00 - Argomento non previsto
+2018-12-22T15:16:06+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T15:16:06+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T15:16:06+01:00 - SPENTO\|3\|8\|100
+2018-12-22T15:16:08+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T15:16:09+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T15:16:10+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T15:16:11+01:00 - TEST\|5\|10\|500
+2018-12-22T15:16:13+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T15:16:14+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T15:18:55+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T15:18:55+01:00 - Argomento non previsto
+2018-12-22T15:19:03+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T15:19:03+01:00 - Argomento non previsto
+2018-12-22T15:19:18+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T15:19:18+01:00 - Argomento non previsto
+2018-12-22T15:19:18+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T15:19:18+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T15:19:18+01:00 - SPENTO\|3\|8\|100
+2018-12-22T15:19:20+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T15:19:21+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T15:19:22+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T15:19:24+01:00 - TEST\|5\|10\|500
+2018-12-22T15:19:25+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T15:19:26+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T15:20:03+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T15:20:03+01:00 - Argomento non previsto
+2018-12-22T15:20:18+01:00 - argv[1] -> 0>SAU ouoGM RNOallarme_spento
+
+2018-12-22T15:20:18+01:00 - argv[1] -> 0= TTSMdl S =POT
+
+2018-12-22T15:20:18+01:00 - Argomento non previsto
+2018-12-22T15:20:18+01:00 - Argomento non previsto
+2018-12-22T15:20:18+01:00 - argv[1] -> aruiosea
+
+2018-12-22T15:20:18+01:00 - Argomento non previsto
+2018-12-22T15:21:00+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T15:21:00+01:00 - Argomento non previsto
+2018-12-22T15:21:15+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T15:21:15+01:00 - Argomento non previsto
+2018-12-22T15:21:15+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T15:21:15+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T15:21:15+01:00 - SPENTO\|3\|8\|100
+2018-12-22T15:21:16+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T15:21:17+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T15:21:19+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T15:21:20+01:00 - TEST\|5\|10\|500
+2018-12-22T15:21:21+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T15:21:23+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T15:21:49+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T15:21:49+01:00 - Argomento non previsto
+2018-12-22T15:22:04+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T15:22:04+01:00 - Argomento non previsto
+2018-12-22T15:22:04+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T15:22:04+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T15:22:04+01:00 - SPENTO\|3\|8\|100
+2018-12-22T15:22:05+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T15:22:06+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T15:22:08+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T15:22:09+01:00 - TEST\|5\|10\|500
+2018-12-22T15:22:10+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T15:22:11+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T15:26:04+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T15:26:04+01:00 - Argomento non previsto
+2018-12-22T15:27:00+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T15:27:00+01:00 - Argomento non previsto
+2018-12-22T15:27:32+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T15:27:32+01:00 - Argomento non previsto
+2018-12-22T15:27:47+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T15:27:47+01:00 - Argomento non previsto
+2018-12-22T15:27:47+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T15:27:47+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T15:27:47+01:00 - SPENTO\|3\|8\|100
+2018-12-22T15:27:48+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T15:27:50+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T15:27:51+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T15:27:52+01:00 - TEST\|5\|10\|500
+2018-12-22T15:27:54+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T15:27:55+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T15:28:05+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T15:28:05+01:00 - Argomento non previsto
+2018-12-22T15:28:20+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T15:28:20+01:00 - Argomento non previsto
+2018-12-22T15:28:20+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T15:28:20+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T15:28:20+01:00 - SPENTO\|3\|8\|100
+2018-12-22T15:28:22+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T15:28:23+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T15:28:24+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T15:28:25+01:00 - TEST\|5\|10\|500
+2018-12-22T15:28:27+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T15:28:28+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T15:28:56+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T15:28:56+01:00 - Argomento non previsto
+2018-12-22T15:29:11+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T15:29:11+01:00 - Argomento non previsto
+2018-12-22T15:29:11+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T15:29:11+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T15:29:11+01:00 - SPENTO\|3\|8\|100
+2018-12-22T15:29:12+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T15:29:14+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T15:29:15+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T15:29:16+01:00 - TEST\|5\|10\|500
+2018-12-22T15:29:17+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T15:29:19+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T15:30:00+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T15:30:00+01:00 - Argomento non previsto
+2018-12-22T15:30:15+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T15:30:15+01:00 - Argomento non previsto
+2018-12-22T15:30:15+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T15:30:16+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T15:30:16+01:00 - SPENTO\|3\|8\|100
+2018-12-22T15:30:17+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T15:30:18+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T15:30:19+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T15:30:21+01:00 - TEST\|5\|10\|500
+2018-12-22T15:30:22+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T15:30:23+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T15:33:11+01:00 - r_allarme_comando-> Spegni
+2018-12-22T15:33:11+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T15:33:11+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T15:33:11+01:00 - SPENTO\|3\|8\|100
+2018-12-22T15:33:13+01:00 - r_allarme_comando-> Accendi
+2018-12-22T15:33:13+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T15:33:14+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T15:33:15+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T15:33:16+01:00 - TEST\|5\|10\|500
+2018-12-22T15:33:17+01:00 - r_allarme_comando-> Home
+2018-12-22T15:33:18+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T15:33:19+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T15:33:23+01:00 - r_allarme_comando-> Tipo_1
+2018-12-22T15:33:26+01:00 - r_allarme_comando-> Test
+2018-12-22T15:33:27+01:00 - argv[1] -> allarme_test
+
+2018-12-22T15:37:36+01:00 - r_allarme_comando-> Accendi
+2018-12-22T15:37:36+01:00 - argv[1] -> allarme_generale
+
+2018-12-22T15:37:47+01:00 - argv[1] -> arduino_433|9151394
+
+2018-12-22T15:37:49+01:00 - argv[1] -> arduino_allarme|IN ALLARME|4 del telecomando lucio
+
+2018-12-22T15:37:49+01:00 - argv[1] -> azioni -> -telefono-sirena-
+
+2018-12-22T15:37:49+01:00 - Argomento non previsto
+2018-12-22T15:37:49+01:00 - argv[1] -> Telefono a 337634273
+
+2018-12-22T15:37:49+01:00 - Argomento non previsto
+2018-12-22T15:38:07+01:00 - r_allarme_comando-> Spegni
+2018-12-22T15:38:09+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T15:38:09+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T15:38:09+01:00 - SPENTO\|3\|8\|100
+2018-12-22T15:38:11+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T15:38:12+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T15:38:13+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T15:38:14+01:00 - TEST\|5\|10\|500
+2018-12-22T15:38:16+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T15:38:17+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T15:39:00+01:00 - argv[1] -> allarme_generale
+
+2018-12-22T15:39:23+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T15:39:23+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T15:39:23+01:00 - SPENTO\|3\|8\|100
+2018-12-22T15:39:24+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T15:39:26+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T15:39:27+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T15:39:28+01:00 - TEST\|5\|10\|500
+2018-12-22T15:39:30+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T15:39:31+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T15:40:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221540 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T15:40:02+01:00 - Argomento non previsto
+2018-12-22T15:50:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221550 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T15:50:02+01:00 - Argomento non previsto
+2018-12-22T16:00:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221600 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T16:00:02+01:00 - Argomento non previsto
+2018-12-22T16:09:42+01:00 - nome_colonna-> luce-cucina-PPICCIATA
+2018-12-22T16:10:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221610 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T16:10:02+01:00 - Argomento non previsto
+2018-12-22T16:13:00+01:00 - nome_colonna-> luce-cucina-STUTATA
+2018-12-22T16:17:20+01:00 - nome_colonna-> luce-bagno-PPICCIATA
+2018-12-22T16:20:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221620 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T16:20:02+01:00 - Argomento non previsto
+2018-12-22T16:30:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221630 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T16:30:02+01:00 - Argomento non previsto
+2018-12-22T16:40:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221640 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T16:40:02+01:00 - Argomento non previsto
+2018-12-22T16:45:22+01:00 - nome_colonna-> luce-bagno-STUTATA
+2018-12-22T16:45:48+01:00 - nome_colonna-> luce-studio-PPICCIATA
+2018-12-22T16:50:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221650 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T16:50:02+01:00 - Argomento non previsto
+2018-12-22T16:52:00+01:00 - nome_colonna-> luce-cucina-PPICCIATA
+2018-12-22T16:52:09+01:00 - nome_colonna-> luce-bagno-PPICCIATA
+2018-12-22T16:54:51+01:00 - nome_colonna-> luce-bagno-STUTATA
+2018-12-22T17:00:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221700 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T17:00:02+01:00 - Argomento non previsto
+2018-12-22T17:10:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221710 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T17:10:02+01:00 - Argomento non previsto
+2018-12-22T17:16:56+01:00 - r_allarme_comando-> Spegni
+2018-12-22T17:16:57+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T17:16:57+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T17:16:57+01:00 - SPENTO\|3\|8\|100
+2018-12-22T17:16:58+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T17:16:58+01:00 - r_allarme_comando-> Accendi
+2018-12-22T17:17:00+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T17:17:01+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T17:17:01+01:00 - r_allarme_comando-> Accendi
+2018-12-22T17:17:02+01:00 - TEST\|5\|10\|500
+2018-12-22T17:17:04+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T17:17:05+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T17:20:03+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221720 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T17:20:03+01:00 - Argomento non previsto
+2018-12-22T17:23:20+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T17:23:20+01:00 - Argomento non previsto
+2018-12-22T17:23:35+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T17:23:35+01:00 - Argomento non previsto
+2018-12-22T17:23:35+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T17:23:35+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T17:23:35+01:00 - SPENTO\|3\|8\|100
+2018-12-22T17:23:36+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T17:23:38+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T17:23:39+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T17:23:40+01:00 - TEST\|5\|10\|500
+2018-12-22T17:23:42+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T17:23:43+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T17:24:26+01:00 - argv[1] -> Lancio_Lettura_433
+2018-12-22T17:24:26+01:00 - Argomento non previsto
+2018-12-22T17:24:36+01:00 - argv[1] -> lettura_433|*
+2018-12-22T17:30:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221730 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T17:30:02+01:00 - Argomento non previsto
+2018-12-22T17:32:36+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T17:32:36+01:00 - Argomento non previsto
+2018-12-22T17:32:51+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T17:32:51+01:00 - Argomento non previsto
+2018-12-22T17:32:51+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T17:32:51+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T17:32:51+01:00 - SPENTO\|3\|8\|100
+2018-12-22T17:32:52+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T17:32:54+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T17:32:55+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T17:32:56+01:00 - TEST\|5\|10\|500
+2018-12-22T17:32:58+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T17:32:59+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T17:36:49+01:00 - r_allarme_comando-> Accendi
+2018-12-22T17:36:49+01:00 - argv[1] -> allarme_generale
+
+2018-12-22T17:36:53+01:00 - r_allarme_comando-> Spegni
+2018-12-22T17:36:54+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T17:36:56+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T17:36:56+01:00 - SPENTO\|3\|8\|100
+2018-12-22T17:36:57+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T17:36:58+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T17:36:59+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T17:37:01+01:00 - TEST\|5\|10\|500
+2018-12-22T17:37:02+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T17:37:03+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T17:37:14+01:00 - argv[1] -> Lancio_Lettura_433
+2018-12-22T17:37:14+01:00 - Argomento non previsto
+2018-12-22T17:37:24+01:00 - argv[1] -> lettura_433|*
+2018-12-22T17:37:32+01:00 - r_allarme_comando-> Accendi
+2018-12-22T17:37:33+01:00 - argv[1] -> allarme_generale
+
+2018-12-22T17:37:44+01:00 - argv[1] -> ATTIVAZIONE SCHEDA TELEFONICA
+
+2018-12-22T17:37:44+01:00 - Argomento non previsto
+2018-12-22T17:37:59+01:00 - argv[1] -> 00=> STATUS Modulo GSM = PRONTO
+
+2018-12-22T17:37:59+01:00 - Argomento non previsto
+2018-12-22T17:37:59+01:00 - argv[1] -> allarme_spento
+
+2018-12-22T17:38:01+01:00 - argv[1] -> arduino_sirena
+
+2018-12-22T17:38:01+01:00 - SPENTO\|3\|8\|100
+2018-12-22T17:38:02+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T17:38:03+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T17:38:04+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T17:38:06+01:00 - TEST\|5\|10\|500
+2018-12-22T17:38:07+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T17:38:08+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T17:38:20+01:00 - nome_colonna-> luce-cucinino-PPICCIATA
+2018-12-22T17:38:36+01:00 - nome_colonna-> status-termosifoni-PICCIATI
+2018-12-22T17:40:03+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221740 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T17:40:03+01:00 - Argomento non previsto
+2018-12-22T17:50:02+01:00 - argv[1] -> Comando Ricevuto [tel. Arduino/Seriale]: raspberry|temperatura|201812221750 => Usare [Accendi] [NOTTE] [Test] [Spegni] [Stato] [Aiuto] [Allarme,....]
+
+2018-12-22T17:50:02+01:00 - Argomento non previsto
+2018-12-22T17:55:43+01:00 - nome_colonna-> luce-cucinino-STUTATA
+2018-12-22T17:55:52+01:00 - nome_colonna-> luce-bagno-PPICCIATA
+2018-12-22T17:56:44+01:00 - argv[1] -> Allarme
+
+2018-12-22T17:56:44+01:00 - Argomento non previsto
+2018-12-22T17:56:54+01:00 - argv[1] -> arduino|allarme|status|SPENTO
+
+2018-12-22T17:56:54+01:00 - Argomento non previsto
+2018-12-22T17:56:54+01:00 - argv[1] -> arduino_allarme|SPENTO|Accensione Arduino
+
+2018-12-22T17:56:55+01:00 - argv[1] -> arduino|Terrazzo_sala|status|attesa
+
+2018-12-22T17:56:55+01:00 - Argomento non previsto
+2018-12-22T17:56:55+01:00 - argv[1] -> arduino|Finestra_bagno|status|attesa
+
+2018-12-22T17:56:55+01:00 - Argomento non previsto
+2018-12-22T17:56:55+01:00 - argv[1] -> arduino|Terrazzo_cucina|status|attesa
+
+2018-12-22T17:56:55+01:00 - Argomento non previsto
+2018-12-22T17:56:55+01:00 - argv[1] -> arduino|Zona_giorno|status|attesa
+
+2018-12-22T17:56:55+01:00 - Argomento non previsto
+2018-12-22T17:56:55+01:00 - argv[1] -> arduino|Zona_notte|status|attesa
+
+2018-12-22T17:56:55+01:00 - Argomento non previsto
+2018-12-22T17:56:56+01:00 - argv[1] -> PIR -> Zona_giorno
+
+2018-12-22T17:56:56+01:00 - Argomento non previsto
+2018-12-22T17:57:00+01:00 - argv[1] -> Spento
+
+2018-12-22T17:57:00+01:00 - Argomento non previsto
+2018-12-22T17:57:00+01:00 - argv[1] -> raspberry|allarme|TEST
+
+2018-12-22T17:57:00+01:00 - Argomento non previsto
+2018-12-22T17:57:00+01:00 - argv[1] -> raspberry|allarme|TEST
+
+2018-12-22T17:57:00+01:00 - Argomento non previsto
+2018-12-22T17:57:00+01:00 - argv[1] -> arduino|allarme|status|TEST
+
+2018-12-22T17:57:03+01:00 - Argomento non previsto
+2018-12-22T17:57:03+01:00 - argv[1] -> arduino_allarme|TEST|..
+
+2018-12-22T18:00:01+01:00 - argv[1] -> raspberry|temperatura|201812221800
+
+2018-12-22T18:00:01+01:00 - Argomento non previsto
+2018-12-22T18:00:02+01:00 - argv[1] -> arduino|cucina|temperatura|21.20
+
+2018-12-22T18:00:02+01:00 - Argomento non previsto
+2018-12-22T18:00:02+01:00 - argv[1] -> arduino|cucina|umidita|52.90
+
+2018-12-22T18:00:02+01:00 - Argomento non previsto
+2018-12-22T18:00:02+01:00 - argv[1] -> arduino|cucina|percepita|21.20
+
+2018-12-22T18:00:02+01:00 - Argomento non previsto
+2018-12-22T18:00:02+01:00 - argv[1] -> arduino_temp|2018/12/22|18|temp_cucina|21.20
+
+2018-12-22T18:00:02+01:00 - argv[1] -> arduino_temp|2018/12/22|18|umid_cucina|52.90
+
+2018-12-22T18:00:03+01:00 - argv[1] -> arduino_temp|2018/12/22|18|perc_cucina|21.20
+
+2018-12-22T18:00:03+01:00 - argv[1] -> arduino|esterna|temperatura|13.00
+
+2018-12-22T18:00:03+01:00 - Argomento non previsto
+2018-12-22T18:00:03+01:00 - argv[1] -> arduino|esterna|umidita|94.00
+
+2018-12-22T18:00:03+01:00 - Argomento non previsto
+2018-12-22T18:00:03+01:00 - argv[1] -> arduino|esterna|percepita|13.00
+
+2018-12-22T18:00:03+01:00 - Argomento non previsto
+2018-12-22T18:00:03+01:00 - argv[1] -> arduino_temp|2018/12/22|18|temp_esterna|13.00
+
+2018-12-22T18:00:04+01:00 - argv[1] -> arduino_temp|2018/12/22|18|umid_esterna|94.00
+
+2018-12-22T18:00:04+01:00 - argv[1] -> arduino_temp|2018/12/22|18|perc_esterna|13.00
+
+2018-12-22T18:00:04+01:00 - argv[1] -> arduino|studio|temperatura|13.70
+
+2018-12-22T18:00:04+01:00 - Argomento non previsto
+2018-12-22T18:00:04+01:00 - argv[1] -> arduino|studio|umidita|73.60
+
+2018-12-22T18:00:04+01:00 - Argomento non previsto
+2018-12-22T18:00:04+01:00 - argv[1] -> arduino|studio|percepita|13.70
+
+2018-12-22T18:00:04+01:00 - Argomento non previsto
+2018-12-22T18:00:04+01:00 - argv[1] -> arduino_temp|2018/12/22|18|temp_studio|13.70
+
+2018-12-22T18:00:05+01:00 - argv[1] -> arduino_temp|2018/12/22|18|umid_studio|73.60
+
+2018-12-22T18:00:05+01:00 - argv[1] -> arduino_temp|2018/12/22|18|perc_studio|13.70
+
+2018-12-22T18:00:06+01:00 - argv[1] -> arduino|camera|temperatura|21.20
+
+2018-12-22T18:00:06+01:00 - Argomento non previsto
+2018-12-22T18:00:06+01:00 - argv[1] -> arduino|camera|umidita|53.90
+
+2018-12-22T18:00:06+01:00 - Argomento non previsto
+2018-12-22T18:00:06+01:00 - argv[1] -> arduino|camera|percepita|21.20
+
+2018-12-22T18:00:06+01:00 - Argomento non previsto
+2018-12-22T18:00:06+01:00 - argv[1] -> arduino_temp|2018/12/22|18|temp_camera|21.20
+
+2018-12-22T18:00:06+01:00 - argv[1] -> arduino_temp|2018/12/22|18|umid_camera|53.90
+
+2018-12-22T18:00:06+01:00 - argv[1] -> arduino_temp|2018/12/22|18|perc_camera|21.20
+
+2018-12-22T18:01:10+01:00 - argv[1] -> arduino|Zona_notte|status|movimento
+
+2018-12-22T18:01:10+01:00 - Argomento non previsto
+2018-12-22T18:01:10+01:00 - argv[1] -> PIR -> Zona_notte
+
+2018-12-22T18:01:10+01:00 - Argomento non previsto
+2018-12-22T18:01:15+01:00 - argv[1] -> arduino_allarme|IN TEST|PIR -> Zona_notte
+
+2018-12-22T18:01:18+01:00 - nome_colonna-> luce-camera_ospiti-PPICCIATA
+2018-12-22T18:04:16+01:00 - argv[1] -> Controllo attivo
+
+2018-12-22T18:04:16+01:00 - Argomento non previsto
+2018-12-22T18:04:16+01:00 - argv[1] -> arduino|Zona_notte|status|attesa
+
+2018-12-22T18:04:17+01:00 - Argomento non previsto
+2018-12-22T18:04:17+01:00 - argv[1] -> Spento
+
+2018-12-22T18:04:17+01:00 - Argomento non previsto
+2018-12-22T18:04:40+01:00 - argv[1] -> arduino|Zona_notte|status|movimento
+
+2018-12-22T18:04:41+01:00 - Argomento non previsto
+2018-12-22T18:04:41+01:00 - argv[1] -> PIR -> Zona_notte
+
+2018-12-22T18:04:41+01:00 - Argomento non previsto
+2018-12-22T18:04:42+01:00 - nome_colonna-> luce-camera_ospiti-STUTATA
+2018-12-22T18:04:45+01:00 - argv[1] -> arduino_allarme|IN TEST|PIR -> Zona_notte
+
+2018-12-22T18:05:41+01:00 - nome_colonna-> luce-camera_ospiti-PPICCIATA
+2018-12-22T18:06:29+01:00 - nome_colonna-> luce-camera_ospiti-STUTATA
+2018-12-22T18:07:31+01:00 - nome_colonna-> luce-camera_ospiti-PPICCIATA
+2018-12-22T18:07:34+01:00 - nome_colonna-> luce-camera_ospiti-STUTATA
+2018-12-22T18:07:47+01:00 - argv[1] -> Controllo attivo
+
+2018-12-22T18:07:47+01:00 - Argomento non previsto
+2018-12-22T18:07:47+01:00 - argv[1] -> arduino|Zona_notte|status|attesa
+
+2018-12-22T18:07:47+01:00 - Argomento non previsto
+2018-12-22T18:07:47+01:00 - argv[1] -> Spento
+
+2018-12-22T18:07:47+01:00 - Argomento non previsto
+2018-12-22T18:07:51+01:00 - nome_colonna-> luce-studio-STUTATA
+2018-12-22T18:07:52+01:00 - argv[1] -> arduino|Zona_notte|status|movimento
+
+2018-12-22T18:07:53+01:00 - Argomento non previsto
+2018-12-22T18:07:54+01:00 - argv[1] -> PIR -> Zona_notte
+
+2018-12-22T18:07:54+01:00 - Argomento non previsto
+2018-12-22T18:07:54+01:00 - nome_colonna-> luce-bagno-STUTATA
+2018-12-22T18:07:57+01:00 - argv[1] -> arduino_allarme|IN TEST|PIR -> Zona_notte
+
+2018-12-22T18:07:58+01:00 - nome_colonna-> luce-corridoio-PPICCIATA
+2018-12-22T18:08:10+01:00 - nome_colonna-> luce-cucinino-PPICCIATA
+2018-12-22T18:09:52+01:00 - nome_colonna-> luce-cucinino-STUTATA
+2018-12-22T18:10:02+01:00 - argv[1] -> raspberry|temperatura|201812221810
+
+2018-12-22T18:10:02+01:00 - Argomento non previsto
+2018-12-22T18:10:02+01:00 - argv[1] -> arduino|cucina|temperatura|21.40
+
+2018-12-22T18:10:03+01:00 - Argomento non previsto
+2018-12-22T18:10:04+01:00 - argv[1] -> arduino|cucina|umidita|52.50
+
+2018-12-22T18:10:04+01:00 - Argomento non previsto
+2018-12-22T18:10:04+01:00 - argv[1] -> arduino|cucina|percepita|21.40
+
+2018-12-22T18:10:04+01:00 - Argomento non previsto
+2018-12-22T18:10:04+01:00 - argv[1] -> arduino_temp|2018/12/22|18|temp_cucina|21.40
+
+2018-12-22T18:10:04+01:00 - argv[1] -> arduino_temp|2018/12/22|18|umid_cucina|52.50
+
+2018-12-22T18:10:04+01:00 - argv[1] -> arduino_temp|2018/12/22|18|perc_cucina|21.40
+
+2018-12-22T18:10:05+01:00 - argv[1] -> arduino|esterna|temperatura|12.90
+
+2018-12-22T18:10:06+01:00 - Argomento non previsto
+2018-12-22T18:10:06+01:00 - argv[1] -> arduino|esterna|umidita|94.00
+
+2018-12-22T18:10:06+01:00 - Argomento non previsto
+2018-12-22T18:10:06+01:00 - argv[1] -> arduino|esterna|percepita|12.90
+
+2018-12-22T18:10:06+01:00 - Argomento non previsto
+2018-12-22T18:10:06+01:00 - argv[1] -> arduino_temp|2018/12/22|18|temp_esterna|12.90
+
+2018-12-22T18:10:09+01:00 - argv[1] -> arduino_temp|2018/12/22|18|umid_esterna|94.00
+
+2018-12-22T18:10:09+01:00 - argv[1] -> arduino_temp|2018/12/22|18|perc_esterna|12.90
+
+2018-12-22T18:10:11+01:00 - argv[1] -> arduino|studio|temperatura|13.40
+
+2018-12-22T18:10:12+01:00 - Argomento non previsto
+2018-12-22T18:10:13+01:00 - argv[1] -> arduino|studio|umidita|75.20
+
+2018-12-22T18:10:13+01:00 - Argomento non previsto
+2018-12-22T18:10:13+01:00 - argv[1] -> arduino|studio|percepita|13.40
+
+2018-12-22T18:10:13+01:00 - Argomento non previsto
+2018-12-22T18:10:13+01:00 - argv[1] -> arduino_temp|2018/12/22|18|temp_studio|13.40
+
+2018-12-22T18:10:13+01:00 - argv[1] -> arduino_temp|2018/12/22|18|umid_studio|75.20
+
+2018-12-22T18:10:14+01:00 - argv[1] -> arduino_temp|2018/12/22|18|perc_studio|13.40
+
+2018-12-22T18:10:14+01:00 - argv[1] -> arduino|camera|temperatura|21.20
+
+2018-12-22T18:10:14+01:00 - Argomento non previsto
+2018-12-22T18:10:14+01:00 - argv[1] -> arduino|camera|umidita|53.90
+
+2018-12-22T18:10:14+01:00 - Argomento non previsto
+2018-12-22T18:10:14+01:00 - argv[1] -> arduino|camera|percepita|21.20
+
+2018-12-22T18:10:14+01:00 - Argomento non previsto
+2018-12-22T18:10:14+01:00 - argv[1] -> arduino_temp|2018/12/22|18|temp_camera|21.20
+
+2018-12-22T18:10:14+01:00 - argv[1] -> arduino_temp|2018/12/22|18|umid_camera|53.90
+
+2018-12-22T18:10:14+01:00 - argv[1] -> arduino_temp|2018/12/22|18|perc_camera|21.20
+
+2018-12-22T18:10:58+01:00 - argv[1] -> Controllo attivo
+
+2018-12-22T18:10:58+01:00 - Argomento non previsto
+2018-12-22T18:10:58+01:00 - argv[1] -> arduino|Zona_notte|status|attesa
+
+2018-12-22T18:10:58+01:00 - Argomento non previsto
+2018-12-22T18:10:59+01:00 - argv[1] -> Spento
+
+2018-12-22T18:10:59+01:00 - Argomento non previsto
+2018-12-22T18:20:01+01:00 - argv[1] -> raspberry|temperatura|201812221820
+
+2018-12-22T18:20:01+01:00 - Argomento non previsto
+2018-12-22T18:20:02+01:00 - argv[1] -> arduino|cucina|temperatura|21.30
+
+2018-12-22T18:20:02+01:00 - Argomento non previsto
+2018-12-22T18:20:02+01:00 - argv[1] -> arduino|cucina|umidita|53.00
+
+2018-12-22T18:20:02+01:00 - Argomento non previsto
+2018-12-22T18:20:02+01:00 - argv[1] -> arduino|cucina|percepita|21.30
+
+2018-12-22T18:20:02+01:00 - Argomento non previsto
+2018-12-22T18:20:02+01:00 - argv[1] -> arduino_temp|2018/12/22|18|temp_cucina|21.30
+
+2018-12-22T18:20:02+01:00 - argv[1] -> arduino_temp|2018/12/22|18|umid_cucina|53.00
+
+2018-12-22T18:20:03+01:00 - argv[1] -> arduino_temp|2018/12/22|18|perc_cucina|21.30
+
+2018-12-22T18:20:03+01:00 - argv[1] -> arduino|esterna|temperatura|12.90
+
+2018-12-22T18:20:03+01:00 - Argomento non previsto
+2018-12-22T18:20:03+01:00 - argv[1] -> arduino|esterna|umidita|94.00
+
+2018-12-22T18:20:03+01:00 - Argomento non previsto
+2018-12-22T18:20:03+01:00 - argv[1] -> arduino|esterna|percepita|12.90
+
+2018-12-22T18:20:03+01:00 - Argomento non previsto
+2018-12-22T18:20:03+01:00 - argv[1] -> arduino_temp|2018/12/22|18|temp_esterna|12.90
+
+2018-12-22T18:20:03+01:00 - argv[1] -> arduino_temp|2018/12/22|18|umid_esterna|94.00
+
+2018-12-22T18:20:04+01:00 - argv[1] -> arduino_temp|2018/12/22|18|perc_esterna|12.90
+
+2018-12-22T18:20:04+01:00 - argv[1] -> arduino|studio|temperatura|13.40
+
+2018-12-22T18:20:04+01:00 - Argomento non previsto
+2018-12-22T18:20:04+01:00 - argv[1] -> arduino|studio|umidita|74.80
+
+2018-12-22T18:20:07+01:00 - Argomento non previsto
+2018-12-22T18:20:07+01:00 - argv[1] -> arduino|studio|percepita|13.40
+
+2018-12-22T18:20:07+01:00 - Argomento non previsto
+2018-12-22T18:20:07+01:00 - argv[1] -> arduino_temp|2018/12/22|18|temp_studio|13.40
+
+2018-12-22T18:20:07+01:00 - argv[1] -> arduino_temp|2018/12/22|18|umid_studio|74.80
+
+2018-12-22T18:20:11+01:00 - argv[1] -> arduino_temp|2018/12/22|18|perc_studio|13.40
+
+2018-12-22T18:20:11+01:00 - argv[1] -> arduino|camera|temperatura|21.40
+
+2018-12-22T18:20:13+01:00 - Argomento non previsto
+2018-12-22T18:20:13+01:00 - argv[1] -> arduino|camera|umidita|53.90
+
+2018-12-22T18:20:13+01:00 - Argomento non previsto
+2018-12-22T18:20:13+01:00 - argv[1] -> arduino|camera|percepita|21.40
+
+2018-12-22T18:20:15+01:00 - Argomento non previsto
+2018-12-22T18:20:15+01:00 - argv[1] -> arduino_temp|2018/12/22|18|temp_camera|21.40
+
+2018-12-22T18:20:17+01:00 - argv[1] -> arduino_temp|2018/12/22|18|umid_camera|53.90
+
+2018-12-22T18:20:17+01:00 - argv[1] -> arduino_temp|2018/12/22|18|perc_camera|21.40
+
+2018-12-22T18:30:02+01:00 - argv[1] -> raspberry|temperatura|201812221830
+
+2018-12-22T18:30:02+01:00 - Argomento non previsto
+2018-12-22T18:30:02+01:00 - argv[1] -> arduino|cucina|temperatura|21.30
+
+2018-12-22T18:30:02+01:00 - Argomento non previsto
+2018-12-22T18:30:02+01:00 - argv[1] -> arduino|cucina|umidita|52.80
+
+2018-12-22T18:30:02+01:00 - Argomento non previsto
+2018-12-22T18:30:02+01:00 - argv[1] -> arduino|cucina|percepita|21.30
+
+2018-12-22T18:30:02+01:00 - Argomento non previsto
+2018-12-22T18:30:03+01:00 - argv[1] -> arduino_temp|2018/12/22|18|temp_cucina|21.30
+
+2018-12-22T18:30:03+01:00 - argv[1] -> arduino_temp|2018/12/22|18|umid_cucina|52.80
+
+2018-12-22T18:30:03+01:00 - argv[1] -> arduino_temp|2018/12/22|18|perc_cucina|21.30
+
+2018-12-22T18:30:03+01:00 - argv[1] -> arduino|esterna|temperatura|12.90
+
+2018-12-22T18:30:03+01:00 - Argomento non previsto
+2018-12-22T18:30:03+01:00 - argv[1] -> arduino|esterna|umidita|94.00
+
+2018-12-22T18:30:03+01:00 - Argomento non previsto
+2018-12-22T18:30:04+01:00 - argv[1] -> arduino|esterna|percepita|12.90
+
+2018-12-22T18:30:04+01:00 - Argomento non previsto
+2018-12-22T18:30:04+01:00 - argv[1] -> arduino_temp|2018/12/22|18|temp_esterna|12.90
+
+2018-12-22T18:30:04+01:00 - argv[1] -> arduino_temp|2018/12/22|18|umid_esterna|94.00
+
+2018-12-22T18:30:04+01:00 - argv[1] -> arduino_temp|2018/12/22|18|perc_esterna|12.90
+
+2018-12-22T18:30:04+01:00 - argv[1] -> arduino|studio|temperatura|13.60
+
+2018-12-22T18:30:06+01:00 - Argomento non previsto
+2018-12-22T18:30:06+01:00 - argv[1] -> arduino|studio|umidita|74.60
+
+2018-12-22T18:30:09+01:00 - Argomento non previsto
+2018-12-22T18:30:09+01:00 - argv[1] -> arduino|studio|percepita|13.60
+
+2018-12-22T18:30:09+01:00 - Argomento non previsto
+2018-12-22T18:30:09+01:00 - argv[1] -> arduino_temp|2018/12/22|18|temp_studio|13.60
+
+2018-12-22T18:30:09+01:00 - argv[1] -> arduino_temp|2018/12/22|18|umid_studio|74.60
+
+2018-12-22T18:30:10+01:00 - argv[1] -> arduino_temp|2018/12/22|18|perc_studio|13.60
+
+2018-12-22T18:30:10+01:00 - argv[1] -> arduino|camera|temperatura|21.50
+
+2018-12-22T18:30:10+01:00 - Argomento non previsto
+2018-12-22T18:30:10+01:00 - argv[1] -> arduino|camera|umidita|53.20
+
+2018-12-22T18:30:10+01:00 - Argomento non previsto
+2018-12-22T18:30:10+01:00 - argv[1] -> arduino|camera|percepita|21.50
+
+2018-12-22T18:30:10+01:00 - Argomento non previsto
+2018-12-22T18:30:10+01:00 - argv[1] -> arduino_temp|2018/12/22|18|temp_camera|21.50
+
+2018-12-22T18:30:10+01:00 - argv[1] -> arduino_temp|2018/12/22|18|umid_camera|53.20
+
+2018-12-22T18:30:11+01:00 - argv[1] -> arduino_temp|2018/12/22|18|perc_camera|21.50
+
+2018-12-22T18:40:01+01:00 - argv[1] -> raspberry|temperatura|201812221840
+
+2018-12-22T18:40:01+01:00 - Argomento non previsto
+2018-12-22T18:40:02+01:00 - argv[1] -> arduino|cucina|temperatura|21.50
+
+2018-12-22T18:40:02+01:00 - Argomento non previsto
+2018-12-22T18:40:02+01:00 - argv[1] -> arduino|cucina|umidita|52.70
+
+2018-12-22T18:40:02+01:00 - Argomento non previsto
+2018-12-22T18:40:02+01:00 - argv[1] -> arduino|cucina|percepita|21.50
+
+2018-12-22T18:40:02+01:00 - Argomento non previsto
+2018-12-22T18:40:02+01:00 - argv[1] -> arduino_temp|2018/12/22|18|temp_cucina|21.50
+
+2018-12-22T18:40:02+01:00 - argv[1] -> arduino_temp|2018/12/22|18|umid_cucina|52.70
+
+2018-12-22T18:40:03+01:00 - argv[1] -> arduino_temp|2018/12/22|18|perc_cucina|21.50
+
+2018-12-22T18:40:03+01:00 - argv[1] -> arduino|esterna|temperatura|12.90
+
+2018-12-22T18:40:03+01:00 - Argomento non previsto
+2018-12-22T18:40:03+01:00 - argv[1] -> arduino|esterna|umidita|94.00
+
+2018-12-22T18:40:03+01:00 - Argomento non previsto
+2018-12-22T18:40:03+01:00 - argv[1] -> arduino|esterna|percepita|12.90
+
+2018-12-22T18:40:03+01:00 - Argomento non previsto
+2018-12-22T18:40:03+01:00 - argv[1] -> arduino_temp|2018/12/22|18|temp_esterna|12.90
+
+2018-12-22T18:40:03+01:00 - argv[1] -> arduino_temp|2018/12/22|18|umid_esterna|94.00
+
+2018-12-22T18:40:04+01:00 - argv[1] -> arduino_temp|2018/12/22|18|perc_esterna|12.90
+
+2018-12-22T18:40:04+01:00 - argv[1] -> arduino|studio|temperatura|13.40
+
+2018-12-22T18:40:04+01:00 - Argomento non previsto
+2018-12-22T18:40:04+01:00 - argv[1] -> arduino|studio|umidita|74.30
+
+2018-12-22T18:40:07+01:00 - Argomento non previsto
+2018-12-22T18:40:07+01:00 - argv[1] -> arduino|studio|percepita|13.40
+
+2018-12-22T18:40:10+01:00 - Argomento non previsto
+2018-12-22T18:40:10+01:00 - argv[1] -> arduino_temp|2018/12/22|18|temp_studio|13.40
+
+2018-12-22T18:40:12+01:00 - argv[1] -> arduino_temp|2018/12/22|18|umid_studio|74.30
+
+2018-12-22T18:40:14+01:00 - argv[1] -> arduino_temp|2018/12/22|18|perc_studio|13.40
+
+2018-12-22T18:40:15+01:00 - argv[1] -> arduino|camera|temperatura|21.70
+
+2018-12-22T18:40:16+01:00 - Argomento non previsto
+2018-12-22T18:40:16+01:00 - argv[1] -> arduino|camera|umidita|52.90
+
+2018-12-22T18:40:16+01:00 - Argomento non previsto
+2018-12-22T18:40:16+01:00 - argv[1] -> arduino|camera|percepita|21.70
+
+2018-12-22T18:40:16+01:00 - Argomento non previsto
+2018-12-22T18:40:16+01:00 - argv[1] -> arduino_temp|2018/12/22|18|temp_camera|21.70
+
+2018-12-22T18:40:16+01:00 - argv[1] -> arduino_temp|2018/12/22|18|umid_camera|52.90
+
+2018-12-22T18:40:16+01:00 - argv[1] -> arduino_temp|2018/12/22|18|perc_camera|21.70
+
+2018-12-22T18:50:02+01:00 - argv[1] -> raspberry|temperatura|201812221850
+
+2018-12-22T18:50:02+01:00 - Argomento non previsto
+2018-12-22T18:50:02+01:00 - argv[1] -> arduino|cucina|temperatura|21.50
+
+2018-12-22T18:50:02+01:00 - Argomento non previsto
+2018-12-22T18:50:02+01:00 - argv[1] -> arduino|cucina|umidita|52.60
+
+2018-12-22T18:50:02+01:00 - Argomento non previsto
+2018-12-22T18:50:02+01:00 - argv[1] -> arduino|cucina|percepita|21.50
+
+2018-12-22T18:50:02+01:00 - Argomento non previsto
+2018-12-22T18:50:03+01:00 - argv[1] -> arduino_temp|2018/12/22|18|temp_cucina|21.50
+
+2018-12-22T18:50:03+01:00 - argv[1] -> arduino_temp|2018/12/22|18|umid_cucina|52.60
+
+2018-12-22T18:50:03+01:00 - argv[1] -> arduino_temp|2018/12/22|18|perc_cucina|21.50
+
+2018-12-22T18:50:03+01:00 - argv[1] -> arduino|esterna|temperatura|12.90
+
+2018-12-22T18:50:03+01:00 - Argomento non previsto
+2018-12-22T18:50:03+01:00 - argv[1] -> arduino|esterna|umidita|94.00
+
+2018-12-22T18:50:03+01:00 - Argomento non previsto
+2018-12-22T18:50:04+01:00 - argv[1] -> arduino|esterna|percepita|12.90
+
+2018-12-22T18:50:04+01:00 - Argomento non previsto
+2018-12-22T18:50:04+01:00 - argv[1] -> arduino_temp|2018/12/22|18|temp_esterna|12.90
+
+2018-12-22T18:50:04+01:00 - argv[1] -> arduino_temp|2018/12/22|18|umid_esterna|94.00
+
+2018-12-22T18:50:04+01:00 - argv[1] -> arduino_temp|2018/12/22|18|perc_esterna|12.90
+
+2018-12-22T18:50:04+01:00 - argv[1] -> arduino|studio|temperatura|13.50
+
+2018-12-22T18:50:04+01:00 - Argomento non previsto
+2018-12-22T18:50:04+01:00 - argv[1] -> arduino|studio|umidita|75.10
+
+2018-12-22T18:50:04+01:00 - Argomento non previsto
+2018-12-22T18:50:04+01:00 - argv[1] -> arduino|studio|percepita|13.50
+
+2018-12-22T18:50:04+01:00 - Argomento non previsto
+2018-12-22T18:50:05+01:00 - argv[1] -> arduino_temp|2018/12/22|18|temp_studio|13.50
+
+2018-12-22T18:50:05+01:00 - argv[1] -> arduino_temp|2018/12/22|18|umid_studio|75.10
+
+2018-12-22T18:50:05+01:00 - argv[1] -> arduino_temp|2018/12/22|18|perc_studio|13.50
+
+2018-12-22T18:50:05+01:00 - argv[1] -> arduino|camera|temperatura|21.80
+
+2018-12-22T18:50:05+01:00 - Argomento non previsto
+2018-12-22T18:50:05+01:00 - argv[1] -> arduino|camera|umidita|52.60
+
+2018-12-22T18:50:05+01:00 - Argomento non previsto
+2018-12-22T18:50:05+01:00 - argv[1] -> arduino|camera|percepita|21.80
+
+2018-12-22T18:50:06+01:00 - Argomento non previsto
+2018-12-22T18:50:06+01:00 - argv[1] -> arduino_temp|2018/12/22|18|temp_camera|21.80
+
+2018-12-22T18:50:06+01:00 - argv[1] -> arduino_temp|2018/12/22|18|umid_camera|52.60
+
+2018-12-22T18:50:06+01:00 - argv[1] -> arduino_temp|2018/12/22|18|perc_camera|21.80
+
+2018-12-22T19:00:01+01:00 - argv[1] -> raspberry|temperatura|201812221900
+
+2018-12-22T19:00:01+01:00 - Argomento non previsto
+2018-12-22T19:00:02+01:00 - argv[1] -> arduino|cucina|temperatura|21.50
+
+2018-12-22T19:00:02+01:00 - Argomento non previsto
+2018-12-22T19:00:02+01:00 - argv[1] -> arduino|cucina|umidita|52.60
+
+2018-12-22T19:00:02+01:00 - Argomento non previsto
+2018-12-22T19:00:02+01:00 - argv[1] -> arduino|cucina|percepita|21.50
+
+2018-12-22T19:00:02+01:00 - Argomento non previsto
+2018-12-22T19:00:02+01:00 - argv[1] -> arduino_temp|2018/12/22|19|temp_cucina|21.50
+
+2018-12-22T19:00:02+01:00 - argv[1] -> arduino_temp|2018/12/22|19|umid_cucina|52.60
+
+2018-12-22T19:00:03+01:00 - argv[1] -> arduino_temp|2018/12/22|19|perc_cucina|21.50
+
+2018-12-22T19:00:03+01:00 - argv[1] -> arduino|esterna|temperatura|12.90
+
+2018-12-22T19:00:03+01:00 - Argomento non previsto
+2018-12-22T19:00:03+01:00 - argv[1] -> arduino|esterna|umidita|94.00
+
+2018-12-22T19:00:03+01:00 - Argomento non previsto
+2018-12-22T19:00:03+01:00 - argv[1] -> arduino|esterna|percepita|12.90
+
+2018-12-22T19:00:03+01:00 - Argomento non previsto
+2018-12-22T19:00:03+01:00 - argv[1] -> arduino_temp|2018/12/22|19|temp_esterna|12.90
+
+2018-12-22T19:00:03+01:00 - argv[1] -> arduino_temp|2018/12/22|19|umid_esterna|94.00
+
+2018-12-22T19:00:04+01:00 - argv[1] -> arduino_temp|2018/12/22|19|perc_esterna|12.90
+
+2018-12-22T19:00:04+01:00 - argv[1] -> arduino|studio|temperatura|13.60
+
+2018-12-22T19:00:04+01:00 - Argomento non previsto
+2018-12-22T19:00:04+01:00 - argv[1] -> arduino|studio|umidita|75.50
+
+2018-12-22T19:00:04+01:00 - Argomento non previsto
+2018-12-22T19:00:04+01:00 - argv[1] -> arduino|studio|percepita|13.60
+
+2018-12-22T19:00:04+01:00 - Argomento non previsto
+2018-12-22T19:00:04+01:00 - argv[1] -> arduino_temp|2018/12/22|19|temp_studio|13.60
+
+2018-12-22T19:00:04+01:00 - argv[1] -> arduino_temp|2018/12/22|19|umid_studio|75.50
+
+2018-12-22T19:00:05+01:00 - argv[1] -> arduino_temp|2018/12/22|19|perc_studio|13.60
+
+2018-12-22T19:00:05+01:00 - argv[1] -> arduino|camera|temperatura|21.90
+
+2018-12-22T19:00:05+01:00 - Argomento non previsto
+2018-12-22T19:00:05+01:00 - argv[1] -> arduino|camera|umidita|52.30
+
+2018-12-22T19:00:05+01:00 - Argomento non previsto
+2018-12-22T19:00:05+01:00 - argv[1] -> arduino|camera|percepita|21.90
+
+2018-12-22T19:00:05+01:00 - Argomento non previsto
+2018-12-22T19:00:05+01:00 - argv[1] -> arduino_temp|2018/12/22|19|temp_camera|21.90
+
+2018-12-22T19:00:05+01:00 - argv[1] -> arduino_temp|2018/12/22|19|umid_camera|52.30
+
+2018-12-22T19:00:06+01:00 - argv[1] -> arduino_temp|2018/12/22|19|perc_camera|21.90
+
+2018-12-22T19:10:02+01:00 - argv[1] -> raspberry|temperatura|201812221910
+
+2018-12-22T19:10:02+01:00 - Argomento non previsto
+2018-12-22T19:10:02+01:00 - argv[1] -> arduino|cucina|temperatura|21.60
+
+2018-12-22T19:10:02+01:00 - Argomento non previsto
+2018-12-22T19:10:02+01:00 - argv[1] -> arduino|cucina|umidita|52.40
+
+2018-12-22T19:10:03+01:00 - Argomento non previsto
+2018-12-22T19:10:03+01:00 - argv[1] -> arduino|cucina|percepita|21.60
+
+2018-12-22T19:10:03+01:00 - Argomento non previsto
+2018-12-22T19:10:03+01:00 - argv[1] -> arduino_temp|2018/12/22|19|temp_cucina|21.60
+
+2018-12-22T19:10:03+01:00 - argv[1] -> arduino_temp|2018/12/22|19|umid_cucina|52.40
+
+2018-12-22T19:10:03+01:00 - argv[1] -> arduino_temp|2018/12/22|19|perc_cucina|21.60
+
+2018-12-22T19:10:04+01:00 - argv[1] -> arduino|esterna|temperatura|13.00
+
+2018-12-22T19:10:04+01:00 - Argomento non previsto
+2018-12-22T19:10:04+01:00 - argv[1] -> arduino|esterna|umidita|94.00
+
+2018-12-22T19:10:04+01:00 - Argomento non previsto
+2018-12-22T19:10:04+01:00 - argv[1] -> arduino|esterna|percepita|13.00
+
+2018-12-22T19:10:04+01:00 - Argomento non previsto
+2018-12-22T19:10:04+01:00 - argv[1] -> arduino_temp|2018/12/22|19|temp_esterna|13.00
+
+2018-12-22T19:10:04+01:00 - argv[1] -> arduino_temp|2018/12/22|19|umid_esterna|94.00
+
+2018-12-22T19:10:04+01:00 - argv[1] -> arduino_temp|2018/12/22|19|perc_esterna|13.00
+
+2018-12-22T19:10:05+01:00 - argv[1] -> arduino|studio|temperatura|13.70
+
+2018-12-22T19:10:05+01:00 - Argomento non previsto
+2018-12-22T19:10:05+01:00 - argv[1] -> arduino|studio|umidita|76.00
+
+2018-12-22T19:10:05+01:00 - Argomento non previsto
+2018-12-22T19:10:05+01:00 - argv[1] -> arduino|studio|percepita|13.70
+
+2018-12-22T19:10:05+01:00 - Argomento non previsto
+2018-12-22T19:10:05+01:00 - argv[1] -> arduino_temp|2018/12/22|19|temp_studio|13.70
+
+2018-12-22T19:10:05+01:00 - argv[1] -> arduino_temp|2018/12/22|19|umid_studio|76.00
+
+2018-12-22T19:10:05+01:00 - argv[1] -> arduino_temp|2018/12/22|19|perc_studio|13.70
+
+2018-12-22T19:10:06+01:00 - argv[1] -> arduino|camera|temperatura|22.00
+
+2018-12-22T19:10:06+01:00 - Argomento non previsto
+2018-12-22T19:10:06+01:00 - argv[1] -> arduino|camera|umidita|52.30
+
+2018-12-22T19:10:06+01:00 - Argomento non previsto
+2018-12-22T19:10:06+01:00 - argv[1] -> arduino|camera|percepita|22.00
+
+2018-12-22T19:10:06+01:00 - Argomento non previsto
+2018-12-22T19:10:06+01:00 - argv[1] -> arduino_temp|2018/12/22|19|temp_camera|22.00
+
+2018-12-22T19:10:06+01:00 - argv[1] -> arduino_temp|2018/12/22|19|umid_camera|52.30
+
+2018-12-22T19:10:06+01:00 - argv[1] -> arduino_temp|2018/12/22|19|perc_camera|22.00
+
+2018-12-22T19:20:02+01:00 - argv[1] -> raspberry|temperatura|201812221920
+
+2018-12-22T19:20:02+01:00 - Argomento non previsto
+2018-12-22T19:20:02+01:00 - argv[1] -> arduino|cucina|temperatura|21.60
+
+2018-12-22T19:20:02+01:00 - Argomento non previsto
+2018-12-22T19:20:02+01:00 - argv[1] -> arduino|cucina|umidita|52.30
+
+2018-12-22T19:20:02+01:00 - Argomento non previsto
+2018-12-22T19:20:02+01:00 - argv[1] -> arduino|cucina|percepita|21.60
+
+2018-12-22T19:20:02+01:00 - Argomento non previsto
+2018-12-22T19:20:02+01:00 - argv[1] -> arduino_temp|2018/12/22|19|temp_cucina|21.60
+
+2018-12-22T19:20:02+01:00 - argv[1] -> arduino_temp|2018/12/22|19|umid_cucina|52.30
+
+2018-12-22T19:20:03+01:00 - argv[1] -> arduino_temp|2018/12/22|19|perc_cucina|21.60
+
+2018-12-22T19:20:03+01:00 - argv[1] -> arduino|esterna|temperatura|13.00
+
+2018-12-22T19:20:03+01:00 - Argomento non previsto
+2018-12-22T19:20:03+01:00 - argv[1] -> arduino|esterna|umidita|94.00
+
+2018-12-22T19:20:03+01:00 - Argomento non previsto
+2018-12-22T19:20:03+01:00 - argv[1] -> arduino|esterna|percepita|13.00
+
+2018-12-22T19:20:03+01:00 - Argomento non previsto
+2018-12-22T19:20:03+01:00 - argv[1] -> arduino_temp|2018/12/22|19|temp_esterna|13.00
+
+2018-12-22T19:20:03+01:00 - argv[1] -> arduino_temp|2018/12/22|19|umid_esterna|94.00
+
+2018-12-22T19:20:04+01:00 - argv[1] -> arduino_temp|2018/12/22|19|perc_esterna|13.00
+
+2018-12-22T19:20:04+01:00 - argv[1] -> arduino|studio|temperatura|14.10
+
+2018-12-22T19:20:04+01:00 - Argomento non previsto
+2018-12-22T19:20:04+01:00 - argv[1] -> arduino|studio|umidita|73.30
+
+2018-12-22T19:20:04+01:00 - Argomento non previsto
+2018-12-22T19:20:04+01:00 - argv[1] -> arduino|studio|percepita|14.10
+
+2018-12-22T19:20:04+01:00 - Argomento non previsto
+2018-12-22T19:20:04+01:00 - argv[1] -> arduino_temp|2018/12/22|19|temp_studio|14.10
+
+2018-12-22T19:20:04+01:00 - argv[1] -> arduino_temp|2018/12/22|19|umid_studio|73.30
+
+2018-12-22T19:20:04+01:00 - argv[1] -> arduino_temp|2018/12/22|19|perc_studio|14.10
+
+2018-12-22T19:20:05+01:00 - argv[1] -> arduino|camera|temperatura|22.10
+
+2018-12-22T19:20:05+01:00 - Argomento non previsto
+2018-12-22T19:20:05+01:00 - argv[1] -> arduino|camera|umidita|52.10
+
+2018-12-22T19:20:05+01:00 - Argomento non previsto
+2018-12-22T19:20:05+01:00 - argv[1] -> arduino|camera|percepita|22.10
+
+2018-12-22T19:20:05+01:00 - Argomento non previsto
+2018-12-22T19:20:05+01:00 - argv[1] -> arduino_temp|2018/12/22|19|temp_camera|22.10
+
+2018-12-22T19:20:05+01:00 - argv[1] -> arduino_temp|2018/12/22|19|umid_camera|52.10
+
+2018-12-22T19:20:06+01:00 - argv[1] -> arduino_temp|2018/12/22|19|perc_camera|22.10
+
+2018-12-22T19:30:02+01:00 - argv[1] -> raspberry|temperatura|201812221930
+
+2018-12-22T19:30:02+01:00 - Argomento non previsto
+2018-12-22T19:30:02+01:00 - argv[1] -> arduino|cucina|temperatura|21.70
+
+2018-12-22T19:30:02+01:00 - Argomento non previsto
+2018-12-22T19:30:02+01:00 - argv[1] -> arduino|cucina|umidita|52.20
+
+2018-12-22T19:30:03+01:00 - Argomento non previsto
+2018-12-22T19:30:03+01:00 - argv[1] -> arduino|cucina|percepita|21.70
+
+2018-12-22T19:30:03+01:00 - Argomento non previsto
+2018-12-22T19:30:03+01:00 - argv[1] -> arduino_temp|2018/12/22|19|temp_cucina|21.70
+
+2018-12-22T19:30:03+01:00 - argv[1] -> arduino_temp|2018/12/22|19|umid_cucina|52.20
+
+2018-12-22T19:30:03+01:00 - argv[1] -> arduino_temp|2018/12/22|19|perc_cucina|21.70
+
+2018-12-22T19:30:03+01:00 - argv[1] -> arduino|esterna|temperatura|13.00
+
+2018-12-22T19:30:03+01:00 - Argomento non previsto
+2018-12-22T19:30:04+01:00 - argv[1] -> arduino|esterna|umidita|94.00
+
+2018-12-22T19:30:04+01:00 - Argomento non previsto
+2018-12-22T19:30:04+01:00 - argv[1] -> arduino|esterna|percepita|13.00
+
+2018-12-22T19:30:04+01:00 - Argomento non previsto
+2018-12-22T19:30:04+01:00 - argv[1] -> arduino_temp|2018/12/22|19|temp_esterna|13.00
+
+2018-12-22T19:30:04+01:00 - argv[1] -> arduino_temp|2018/12/22|19|umid_esterna|94.00
+
+2018-12-22T19:30:04+01:00 - argv[1] -> arduino_temp|2018/12/22|19|perc_esterna|13.00
+
+2018-12-22T19:30:04+01:00 - argv[1] -> arduino|studio|temperatura|14.00
+
+2018-12-22T19:30:04+01:00 - Argomento non previsto
+2018-12-22T19:30:04+01:00 - argv[1] -> arduino|studio|umidita|72.90
+
+2018-12-22T19:30:04+01:00 - Argomento non previsto
+2018-12-22T19:30:05+01:00 - argv[1] -> arduino|studio|percepita|14.00
+
+2018-12-22T19:30:05+01:00 - Argomento non previsto
+2018-12-22T19:30:05+01:00 - argv[1] -> arduino_temp|2018/12/22|19|temp_studio|14.00
+
+2018-12-22T19:30:05+01:00 - argv[1] -> arduino_temp|2018/12/22|19|umid_studio|72.90
+
+2018-12-22T19:30:05+01:00 - argv[1] -> arduino_temp|2018/12/22|19|perc_studio|14.00
+
+2018-12-22T19:30:05+01:00 - argv[1] -> arduino|camera|temperatura|22.20
+
+2018-12-22T19:30:05+01:00 - Argomento non previsto
+2018-12-22T19:30:06+01:00 - argv[1] -> arduino|camera|umidita|51.80
+
+2018-12-22T19:30:06+01:00 - Argomento non previsto
+2018-12-22T19:30:06+01:00 - argv[1] -> arduino|camera|percepita|22.20
+
+2018-12-22T19:30:06+01:00 - Argomento non previsto
+2018-12-22T19:30:06+01:00 - argv[1] -> arduino_temp|2018/12/22|19|temp_camera|22.20
+
+2018-12-22T19:30:06+01:00 - argv[1] -> arduino_temp|2018/12/22|19|umid_camera|51.80
+
+2018-12-22T19:30:06+01:00 - argv[1] -> arduino_temp|2018/12/22|19|perc_camera|22.20
+
+2018-12-22T19:40:02+01:00 - argv[1] -> raspberry|temperatura|201812221940
+
+2018-12-22T19:40:02+01:00 - Argomento non previsto
+2018-12-22T19:40:02+01:00 - argv[1] -> arduino|cucina|temperatura|21.80
+
+2018-12-22T19:40:02+01:00 - Argomento non previsto
+2018-12-22T19:40:02+01:00 - argv[1] -> arduino|cucina|umidita|52.10
+
+2018-12-22T19:40:02+01:00 - Argomento non previsto
+2018-12-22T19:40:02+01:00 - argv[1] -> arduino|cucina|percepita|21.80
+
+2018-12-22T19:40:02+01:00 - Argomento non previsto
+2018-12-22T19:40:02+01:00 - argv[1] -> arduino_temp|2018/12/22|19|temp_cucina|21.80
+
+2018-12-22T19:40:03+01:00 - argv[1] -> arduino_temp|2018/12/22|19|umid_cucina|52.10
+
+2018-12-22T19:40:03+01:00 - argv[1] -> arduino_temp|2018/12/22|19|perc_cucina|21.80
+
+2018-12-22T19:40:03+01:00 - argv[1] -> arduino|esterna|temperatura|13.00
+
+2018-12-22T19:40:03+01:00 - Argomento non previsto
+2018-12-22T19:40:03+01:00 - argv[1] -> arduino|esterna|umidita|94.00
+
+2018-12-22T19:40:03+01:00 - Argomento non previsto
+2018-12-22T19:40:03+01:00 - argv[1] -> arduino|esterna|percepita|13.00
+
+2018-12-22T19:40:03+01:00 - Argomento non previsto
+2018-12-22T19:40:03+01:00 - argv[1] -> arduino_temp|2018/12/22|19|temp_esterna|13.00
+
+2018-12-22T19:40:04+01:00 - argv[1] -> arduino_temp|2018/12/22|19|umid_esterna|94.00
+
+2018-12-22T19:40:04+01:00 - argv[1] -> arduino_temp|2018/12/22|19|perc_esterna|13.00
+
+2018-12-22T19:40:04+01:00 - argv[1] -> arduino|studio|temperatura|13.80
+
+2018-12-22T19:40:04+01:00 - Argomento non previsto
+2018-12-22T19:40:04+01:00 - argv[1] -> arduino|studio|umidita|73.60
+
+2018-12-22T19:40:04+01:00 - Argomento non previsto
+2018-12-22T19:40:04+01:00 - argv[1] -> arduino|studio|percepita|13.80
+
+2018-12-22T19:40:04+01:00 - Argomento non previsto
+2018-12-22T19:40:04+01:00 - argv[1] -> arduino_temp|2018/12/22|19|temp_studio|13.80
+
+2018-12-22T19:40:05+01:00 - argv[1] -> arduino_temp|2018/12/22|19|umid_studio|73.60
+
+2018-12-22T19:40:05+01:00 - argv[1] -> arduino_temp|2018/12/22|19|perc_studio|13.80
+
+2018-12-22T19:40:05+01:00 - argv[1] -> arduino|camera|temperatura|22.30
+
+2018-12-22T19:40:05+01:00 - Argomento non previsto
+2018-12-22T19:40:05+01:00 - argv[1] -> arduino|camera|umidita|51.50
+
+2018-12-22T19:40:05+01:00 - Argomento non previsto
+2018-12-22T19:40:05+01:00 - argv[1] -> arduino|camera|percepita|22.30
+
+2018-12-22T19:40:05+01:00 - Argomento non previsto
+2018-12-22T19:40:05+01:00 - argv[1] -> arduino_temp|2018/12/22|19|temp_camera|22.30
+
+2018-12-22T19:40:06+01:00 - argv[1] -> arduino_temp|2018/12/22|19|umid_camera|51.50
+
+2018-12-22T19:40:06+01:00 - argv[1] -> arduino_temp|2018/12/22|19|perc_camera|22.30
+
+2018-12-22T19:43:51+01:00 - argv[1] -> arduino|Zona_giorno|status|movimento
+
+2018-12-22T19:43:51+01:00 - Argomento non previsto
+2018-12-22T19:43:51+01:00 - argv[1] -> PIR -> Zona_giorno
+
+2018-12-22T19:43:51+01:00 - Argomento non previsto
+2018-12-22T19:43:56+01:00 - argv[1] -> arduino_allarme|IN TEST|PIR -> Zona_giorno
+
+2018-12-22T19:44:35+01:00 - nome_colonna-> luce-studio-PPICCIATA
+2018-12-22T19:44:51+01:00 - nome_colonna-> luce-bagno-PPICCIATA
+2018-12-22T19:46:17+01:00 - nome_colonna-> luce-bagno-STUTATA
+2018-12-22T19:46:23+01:00 - nome_colonna-> luce-corridoio-STUTATA
+2018-12-22T19:46:57+01:00 - argv[1] -> Controllo attivo
+
+2018-12-22T19:46:57+01:00 - Argomento non previsto
+2018-12-22T19:46:57+01:00 - argv[1] -> arduino|Zona_giorno|status|attesa
+
+2018-12-22T19:46:58+01:00 - Argomento non previsto
+2018-12-22T19:46:58+01:00 - argv[1] -> Spento
+
+2018-12-22T19:46:58+01:00 - Argomento non previsto
+2018-12-22T19:50:02+01:00 - argv[1] -> raspberry|temperatura|201812221950
+
+2018-12-22T19:50:02+01:00 - Argomento non previsto
+2018-12-22T19:50:02+01:00 - argv[1] -> arduino|cucina|temperatura|21.80
+
+2018-12-22T19:50:02+01:00 - Argomento non previsto
+2018-12-22T19:50:03+01:00 - argv[1] -> arduino|cucina|umidita|52.10
+
+2018-12-22T19:50:03+01:00 - Argomento non previsto
+2018-12-22T19:50:03+01:00 - argv[1] -> arduino|cucina|percepita|21.80
+
+2018-12-22T19:50:03+01:00 - Argomento non previsto
+2018-12-22T19:50:03+01:00 - argv[1] -> arduino_temp|2018/12/22|19|temp_cucina|21.80
+
+2018-12-22T19:50:03+01:00 - argv[1] -> arduino_temp|2018/12/22|19|umid_cucina|52.10
+
+2018-12-22T19:50:03+01:00 - argv[1] -> arduino_temp|2018/12/22|19|perc_cucina|21.80
+
+2018-12-22T19:50:03+01:00 - argv[1] -> arduino|esterna|temperatura|13.00
+
+2018-12-22T19:50:03+01:00 - Argomento non previsto
+2018-12-22T19:50:03+01:00 - argv[1] -> arduino|esterna|umidita|94.00
+
+2018-12-22T19:50:03+01:00 - Argomento non previsto
+2018-12-22T19:50:04+01:00 - argv[1] -> arduino|esterna|percepita|13.00
+
+2018-12-22T19:50:04+01:00 - Argomento non previsto
+2018-12-22T19:50:04+01:00 - argv[1] -> arduino_temp|2018/12/22|19|temp_esterna|13.00
+
+2018-12-22T19:50:04+01:00 - argv[1] -> arduino_temp|2018/12/22|19|umid_esterna|94.00
+
+2018-12-22T19:50:04+01:00 - argv[1] -> arduino_temp|2018/12/22|19|perc_esterna|13.00
+
+2018-12-22T19:50:04+01:00 - argv[1] -> arduino|studio|temperatura|13.90
+
+2018-12-22T19:50:04+01:00 - Argomento non previsto
+2018-12-22T19:50:04+01:00 - argv[1] -> arduino|studio|umidita|75.00
+
+2018-12-22T19:50:04+01:00 - Argomento non previsto
+2018-12-22T19:50:05+01:00 - argv[1] -> arduino|studio|percepita|13.90
+
+2018-12-22T19:50:05+01:00 - Argomento non previsto
+2018-12-22T19:50:05+01:00 - argv[1] -> arduino_temp|2018/12/22|19|temp_studio|13.90
+
+2018-12-22T19:50:05+01:00 - argv[1] -> arduino_temp|2018/12/22|19|umid_studio|75.00
+
+2018-12-22T19:50:05+01:00 - argv[1] -> arduino_temp|2018/12/22|19|perc_studio|13.90
+
+2018-12-22T19:50:06+01:00 - argv[1] -> arduino|camera|temperatura|22.30
+
+2018-12-22T19:50:06+01:00 - Argomento non previsto
+2018-12-22T19:50:06+01:00 - argv[1] -> arduino|camera|umidita|51.40
+
+2018-12-22T19:50:06+01:00 - Argomento non previsto
+2018-12-22T19:50:06+01:00 - argv[1] -> arduino|camera|percepita|22.30
+
+2018-12-22T19:50:06+01:00 - Argomento non previsto
+2018-12-22T19:50:06+01:00 - argv[1] -> arduino_temp|2018/12/22|19|temp_camera|22.30
+
+2018-12-22T19:50:06+01:00 - argv[1] -> arduino_temp|2018/12/22|19|umid_camera|51.40
+
+2018-12-22T19:50:06+01:00 - argv[1] -> arduino_temp|2018/12/22|19|perc_camera|22.30
+
+2018-12-22T19:51:32+01:00 - argv[1] -> arduino|Zona_giorno|status|movimento
+
+2018-12-22T19:51:32+01:00 - Argomento non previsto
+2018-12-22T19:51:32+01:00 - argv[1] -> PIR -> Zona_giorno
+
+2018-12-22T19:51:32+01:00 - Argomento non previsto
+2018-12-22T19:51:37+01:00 - argv[1] -> arduino_allarme|IN TEST|PIR -> Zona_giorno
+
+2018-12-22T19:51:44+01:00 - nome_colonna-> status-termosifoni-STUTATI
+2018-12-22T19:52:10+01:00 - nome_colonna-> luce-camera_ospiti-PPICCIATA
+2018-12-22T19:54:38+01:00 - argv[1] -> Controllo attivo
+
+2018-12-22T19:54:38+01:00 - Argomento non previsto
+2018-12-22T19:54:39+01:00 - argv[1] -> arduino|Zona_giorno|status|attesa
+
+2018-12-22T19:54:39+01:00 - Argomento non previsto
+2018-12-22T19:54:39+01:00 - argv[1] -> arduino|Zona_notte|status|movimento
+
+2018-12-22T19:54:39+01:00 - Argomento non previsto
+2018-12-22T19:54:39+01:00 - argv[1] -> PIR -> Zona_notte
+
+2018-12-22T19:54:39+01:00 - Argomento non previsto
+2018-12-22T19:54:44+01:00 - argv[1] -> arduino_allarme|IN TEST|PIR -> Zona_notte
+
+2018-12-22T19:57:45+01:00 - argv[1] -> Controllo attivo
+
+2018-12-22T19:57:45+01:00 - Argomento non previsto
+2018-12-22T19:57:45+01:00 - argv[1] -> arduino|Zona_notte|status|attesa
+
+2018-12-22T19:57:45+01:00 - Argomento non previsto
+2018-12-22T19:57:45+01:00 - argv[1] -> Spento
+
+2018-12-22T19:57:45+01:00 - Argomento non previsto
+2018-12-22T20:00:02+01:00 - argv[1] -> raspberry|temperatura|201812222000
+
+2018-12-22T20:00:02+01:00 - Argomento non previsto
+2018-12-22T20:00:02+01:00 - argv[1] -> arduino|cucina|temperatura|21.60
+
+2018-12-22T20:00:02+01:00 - Argomento non previsto
+2018-12-22T20:00:02+01:00 - argv[1] -> arduino|cucina|umidita|52.60
+
+2018-12-22T20:00:02+01:00 - Argomento non previsto
+2018-12-22T20:00:02+01:00 - argv[1] -> arduino|cucina|percepita|21.60
+
+2018-12-22T20:00:02+01:00 - Argomento non previsto
+2018-12-22T20:00:02+01:00 - argv[1] -> arduino_temp|2018/12/22|20|temp_cucina|21.60
+
+2018-12-22T20:00:03+01:00 - argv[1] -> arduino_temp|2018/12/22|20|umid_cucina|52.60
+
+2018-12-22T20:00:03+01:00 - argv[1] -> arduino_temp|2018/12/22|20|perc_cucina|21.60
+
+2018-12-22T20:00:03+01:00 - argv[1] -> arduino|esterna|temperatura|12.90
+
+2018-12-22T20:00:03+01:00 - Argomento non previsto
+2018-12-22T20:00:03+01:00 - argv[1] -> arduino|esterna|umidita|94.00
+
+2018-12-22T20:00:03+01:00 - Argomento non previsto
+2018-12-22T20:00:03+01:00 - argv[1] -> arduino|esterna|percepita|12.90
+
+2018-12-22T20:00:03+01:00 - Argomento non previsto
+2018-12-22T20:00:03+01:00 - argv[1] -> arduino_temp|2018/12/22|20|temp_esterna|12.90
+
+2018-12-22T20:00:04+01:00 - argv[1] -> arduino_temp|2018/12/22|20|umid_esterna|94.00
+
+2018-12-22T20:00:04+01:00 - argv[1] -> arduino_temp|2018/12/22|20|perc_esterna|12.90
+
+2018-12-22T20:00:04+01:00 - argv[1] -> arduino|studio|temperatura|13.90
+
+2018-12-22T20:00:04+01:00 - Argomento non previsto
+2018-12-22T20:00:04+01:00 - argv[1] -> arduino|studio|umidita|75.20
+
+2018-12-22T20:00:04+01:00 - Argomento non previsto
+2018-12-22T20:00:04+01:00 - argv[1] -> arduino|studio|percepita|13.90
+
+2018-12-22T20:00:04+01:00 - Argomento non previsto
+2018-12-22T20:00:04+01:00 - argv[1] -> arduino_temp|2018/12/22|20|temp_studio|13.90
+
+2018-12-22T20:00:05+01:00 - argv[1] -> arduino_temp|2018/12/22|20|umid_studio|75.20
+
+2018-12-22T20:00:05+01:00 - argv[1] -> arduino_temp|2018/12/22|20|perc_studio|13.90
+
+2018-12-22T20:00:05+01:00 - argv[1] -> arduino|camera|temperatura|22.40
+
+2018-12-22T20:00:05+01:00 - Argomento non previsto
+2018-12-22T20:00:05+01:00 - argv[1] -> arduino|camera|umidita|51.70
+
+2018-12-22T20:00:05+01:00 - Argomento non previsto
+2018-12-22T20:00:05+01:00 - argv[1] -> arduino|camera|percepita|22.40
+
+2018-12-22T20:00:05+01:00 - Argomento non previsto
+2018-12-22T20:00:06+01:00 - argv[1] -> arduino_temp|2018/12/22|20|temp_camera|22.40
+
+2018-12-22T20:00:06+01:00 - argv[1] -> arduino_temp|2018/12/22|20|umid_camera|51.70
+
+2018-12-22T20:00:06+01:00 - argv[1] -> arduino_temp|2018/12/22|20|perc_camera|22.40
+
+2018-12-22T20:02:22+01:00 - argv[1] -> arduino|Zona_notte|status|movimento
+
+2018-12-22T20:02:22+01:00 - Argomento non previsto
+2018-12-22T20:02:22+01:00 - argv[1] -> PIR -> Zona_notte
+
+2018-12-22T20:02:22+01:00 - Argomento non previsto
+2018-12-22T20:02:25+01:00 - nome_colonna-> luce-bagno-PPICCIATA
+2018-12-22T20:02:27+01:00 - argv[1] -> arduino_allarme|IN TEST|PIR -> Zona_notte
+
+2018-12-22T20:03:51+01:00 - nome_colonna-> luce-corridoio-PPICCIATA
+2018-12-22T20:04:01+01:00 - argv[1] -> arduino_sirena
+2018-12-22T20:04:01+01:00 - SPENTO\|3\|8\|100
+2018-12-22T20:04:02+01:00 - argv[1] -> raspberry_sirena|SPENTO|3|8|100
+
+2018-12-22T20:04:02+01:00 - Argomento non previsto
+2018-12-22T20:04:02+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T20:04:03+01:00 - argv[1] -> raspberry_sirena|ACCESO|2|15|1000
+
+2018-12-22T20:04:03+01:00 - Argomento non previsto
+2018-12-22T20:04:04+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T20:04:04+01:00 - argv[1] -> raspberry_sirena|NOTTE|3|13|3000
+
+2018-12-22T20:04:04+01:00 - Argomento non previsto
+2018-12-22T20:04:05+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T20:04:05+01:00 - argv[1] -> raspberry_sirena|TIPO_1|4|10|4000
+
+2018-12-22T20:04:06+01:00 - Argomento non previsto
+2018-12-22T20:04:06+01:00 - TEST\|5\|10\|500
+2018-12-22T20:04:07+01:00 - argv[1] -> raspberry_sirena|TEST|5|10|500
+
+2018-12-22T20:04:07+01:00 - Argomento non previsto
+2018-12-22T20:04:08+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T20:04:08+01:00 - argv[1] -> raspberry_sirena|IN_ALLARME|10|10|1000
+
+2018-12-22T20:04:08+01:00 - Argomento non previsto
+2018-12-22T20:04:09+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T20:04:09+01:00 - argv[1] -> raspberry_sirena|AIUTO|6|0|1000
+
+2018-12-22T20:04:09+01:00 - Argomento non previsto
+2018-12-22T20:05:28+01:00 - argv[1] -> Controllo attivo
+
+2018-12-22T20:05:28+01:00 - Argomento non previsto
+2018-12-22T20:05:28+01:00 - argv[1] -> arduino|Zona_notte|status|attesa
+
+2018-12-22T20:05:28+01:00 - Argomento non previsto
+2018-12-22T20:05:28+01:00 - argv[1] -> Spento
+
+2018-12-22T20:05:28+01:00 - Argomento non previsto
+2018-12-22T20:06:07+01:00 - argv[1] -> arduino|Zona_notte|status|movimento
+
+2018-12-22T20:06:07+01:00 - Argomento non previsto
+2018-12-22T20:06:08+01:00 - argv[1] -> PIR -> Zona_notte
+
+2018-12-22T20:06:08+01:00 - Argomento non previsto
+2018-12-22T20:06:12+01:00 - argv[1] -> arduino_allarme|IN TEST|PIR -> Zona_notte
+
+2018-12-22T20:09:14+01:00 - argv[1] -> Controllo attivo
+
+2018-12-22T20:09:14+01:00 - Argomento non previsto
+2018-12-22T20:09:16+01:00 - argv[1] -> arduino|Zona_notte|status|attesa
+
+2018-12-22T20:09:16+01:00 - Argomento non previsto
+2018-12-22T20:09:16+01:00 - argv[1] -> Spento
+
+2018-12-22T20:09:16+01:00 - Argomento non previsto
+2018-12-22T20:10:02+01:00 - argv[1] -> raspberry|temperatura|201812222010
+
+2018-12-22T20:10:02+01:00 - Argomento non previsto
+2018-12-22T20:10:03+01:00 - argv[1] -> arduino|cucina|temperatura|21.70
+
+2018-12-22T20:10:03+01:00 - Argomento non previsto
+2018-12-22T20:10:03+01:00 - argv[1] -> arduino|cucina|umidita|52.60
+
+2018-12-22T20:10:03+01:00 - Argomento non previsto
+2018-12-22T20:10:03+01:00 - argv[1] -> arduino|cucina|percepita|21.70
+
+2018-12-22T20:10:06+01:00 - Argomento non previsto
+2018-12-22T20:10:06+01:00 - argv[1] -> arduino_temp|2018/12/22|20|temp_cucina|21.70
+
+2018-12-22T20:10:06+01:00 - argv[1] -> arduino_temp|2018/12/22|20|umid_cucina|52.60
+
+2018-12-22T20:10:06+01:00 - argv[1] -> arduino_temp|2018/12/22|20|perc_cucina|21.70
+
+2018-12-22T20:10:07+01:00 - argv[1] -> arduino|esterna|temperatura|12.90
+
+2018-12-22T20:10:07+01:00 - Argomento non previsto
+2018-12-22T20:10:07+01:00 - argv[1] -> arduino|esterna|umidita|94.00
+
+2018-12-22T20:10:07+01:00 - Argomento non previsto
+2018-12-22T20:10:07+01:00 - argv[1] -> arduino|esterna|percepita|12.90
+
+2018-12-22T20:10:07+01:00 - Argomento non previsto
+2018-12-22T20:10:07+01:00 - argv[1] -> arduino_temp|2018/12/22|20|temp_esterna|12.90
+
+2018-12-22T20:10:07+01:00 - argv[1] -> arduino_temp|2018/12/22|20|umid_esterna|94.00
+
+2018-12-22T20:10:08+01:00 - argv[1] -> arduino_temp|2018/12/22|20|perc_esterna|12.90
+
+2018-12-22T20:10:08+01:00 - argv[1] -> arduino|studio|temperatura|13.60
+
+2018-12-22T20:10:08+01:00 - Argomento non previsto
+2018-12-22T20:10:08+01:00 - argv[1] -> arduino|studio|umidita|75.50
+
+2018-12-22T20:10:09+01:00 - Argomento non previsto
+2018-12-22T20:10:09+01:00 - argv[1] -> arduino|studio|percepita|13.60
+
+2018-12-22T20:10:09+01:00 - Argomento non previsto
+2018-12-22T20:10:10+01:00 - argv[1] -> arduino_temp|2018/12/22|20|temp_studio|13.60
+
+2018-12-22T20:10:10+01:00 - argv[1] -> arduino_temp|2018/12/22|20|umid_studio|75.50
+
+2018-12-22T20:10:10+01:00 - argv[1] -> arduino_temp|2018/12/22|20|perc_studio|13.60
+
+2018-12-22T20:10:11+01:00 - argv[1] -> arduino|camera|temperatura|22.70
+
+2018-12-22T20:10:11+01:00 - Argomento non previsto
+2018-12-22T20:10:11+01:00 - argv[1] -> arduino|camera|umidita|51.10
+
+2018-12-22T20:10:11+01:00 - Argomento non previsto
+2018-12-22T20:10:11+01:00 - argv[1] -> arduino|camera|percepita|22.70
+
+2018-12-22T20:10:12+01:00 - Argomento non previsto
+2018-12-22T20:10:12+01:00 - argv[1] -> arduino_temp|2018/12/22|20|temp_camera|22.70
+
+2018-12-22T20:10:13+01:00 - argv[1] -> arduino_temp|2018/12/22|20|umid_camera|51.10
+
+2018-12-22T20:10:13+01:00 - argv[1] -> arduino_temp|2018/12/22|20|perc_camera|22.70
+
+2018-12-22T20:11:11+01:00 - argv[1] -> arduino|Zona_notte|status|movimento
+
+2018-12-22T20:11:11+01:00 - Argomento non previsto
+2018-12-22T20:11:11+01:00 - argv[1] -> PIR -> Zona_notte
+
+2018-12-22T20:11:11+01:00 - Argomento non previsto
+2018-12-22T20:11:15+01:00 - argv[1] -> arduino_sirena
+2018-12-22T20:11:15+01:00 - SPENTO\|3\|8\|100
+2018-12-22T20:11:16+01:00 - argv[1] -> arduino_allarme|IN TEST|PIR -> Zona_notte
+
+2018-12-22T20:11:16+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T20:11:17+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T20:11:18+01:00 - argv[1] -> raspberry_sirena|ACCESO|2|15|1000
+
+2018-12-22T20:11:18+01:00 - Argomento non previsto
+2018-12-22T20:11:18+01:00 - argv[1] -> raspberry_sirena|NOTTE|3|13|3000
+
+2018-12-22T20:11:18+01:00 - Argomento non previsto
+2018-12-22T20:11:19+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T20:11:19+01:00 - argv[1] -> raspberry_sirena|TIPO_1|4|10|4000
+
+2018-12-22T20:11:19+01:00 - Argomento non previsto
+2018-12-22T20:11:20+01:00 - TEST\|5\|10\|500
+2018-12-22T20:11:21+01:00 - argv[1] -> raspberry_sirena|TEST|5|10|500
+
+2018-12-22T20:11:21+01:00 - Argomento non previsto
+2018-12-22T20:11:21+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T20:11:22+01:00 - argv[1] -> raspberry_sirena|IN_ALLARME|10|10|1000
+
+2018-12-22T20:11:22+01:00 - Argomento non previsto
+2018-12-22T20:11:23+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T20:11:23+01:00 - argv[1] -> raspberry_sirena|AIUTO|6|0|1000
+
+2018-12-22T20:11:23+01:00 - Argomento non previsto
+2018-12-22T20:14:17+01:00 - argv[1] -> Controllo attivo
+
+2018-12-22T20:14:17+01:00 - Argomento non previsto
+2018-12-22T20:14:17+01:00 - argv[1] -> arduino|Zona_notte|status|attesa
+
+2018-12-22T20:14:17+01:00 - Argomento non previsto
+2018-12-22T20:14:18+01:00 - argv[1] -> Spento
+
+2018-12-22T20:14:18+01:00 - Argomento non previsto
+2018-12-22T20:14:30+01:00 - argv[1] -> arduino_sirena
+2018-12-22T20:14:30+01:00 - SPENTO\|3\|8\|100
+2018-12-22T20:14:31+01:00 - argv[1] -> raspberry_sirena|SPENTO|3|8|100
+
+2018-12-22T20:14:31+01:00 - Argomento non previsto
+2018-12-22T20:14:32+01:00 - ACCESO\|2\|15\|1000
+2018-12-22T20:14:32+01:00 - argv[1] -> raspberry_sirena|ACCESO|2|15|1000
+
+2018-12-22T20:14:32+01:00 - Argomento non previsto
+2018-12-22T20:14:33+01:00 - NOTTE\|3\|13\|3000
+2018-12-22T20:14:33+01:00 - argv[1] -> raspberry_sirena|NOTTE|3|13|3000
+
+2018-12-22T20:14:33+01:00 - Argomento non previsto
+2018-12-22T20:14:34+01:00 - TIPO_1\|4\|10\|4000
+2018-12-22T20:14:35+01:00 - argv[1] -> raspberry_sirena|TIPO_1|4|10|4000
+
+2018-12-22T20:14:35+01:00 - Argomento non previsto
+2018-12-22T20:14:35+01:00 - TEST\|5\|10\|500
+2018-12-22T20:14:36+01:00 - argv[1] -> raspberry_sirena|TEST|5|10|500
+
+2018-12-22T20:14:36+01:00 - Argomento non previsto
+2018-12-22T20:14:37+01:00 - IN_ALLARME\|10\|10\|1000
+2018-12-22T20:14:37+01:00 - argv[1] -> raspberry_sirena|IN_ALLARME|10|10|1000
+
+2018-12-22T20:14:37+01:00 - Argomento non previsto
+2018-12-22T20:14:38+01:00 - AIUTO\|6\|0\|1000
+2018-12-22T20:14:39+01:00 - argv[1] -> raspberry_sirena|AIUTO|6|0|1000
+
+2018-12-22T20:14:39+01:00 - Argomento non previsto
+2018-12-22T20:14:40+01:00 - argv[1] -> raspberry_fine_sirena
+
+2018-12-22T20:14:40+01:00 - Argomento non previsto
+2018-12-22T20:16:10+01:00 - argv[1] -> arduino|Zona_notte|status|movimento
+
+2018-12-22T20:16:10+01:00 - Argomento non previsto
+2018-12-22T20:16:10+01:00 - argv[1] -> PIR -> Zona_notte
+
+2018-12-22T20:16:10+01:00 - Argomento non previsto
+2018-12-22T20:16:15+01:00 - argv[1] -> arduino_allarme|IN TEST|PIR -> Zona_notte
+
+2018-12-22T20:16:23+01:00 - nome_colonna-> luce-corridoio-STUTATA
+2018-12-22T20:19:16+01:00 - argv[1] -> Controllo attivo
+
+2018-12-22T20:19:16+01:00 - Argomento non previsto
+2018-12-22T20:19:16+01:00 - argv[1] -> arduino|Zona_notte|status|attesa
+
+2018-12-22T20:19:16+01:00 - Argomento non previsto
+2018-12-22T20:19:16+01:00 - argv[1] -> Spento
+
+2018-12-22T20:19:16+01:00 - Argomento non previsto
+2018-12-22T20:19:35+01:00 - argv[1] -> arduino|Zona_notte|status|movimento
+
+2018-12-22T20:19:36+01:00 - Argomento non previsto
+2018-12-22T20:19:36+01:00 - argv[1] -> PIR -> Zona_notte
+
+2018-12-22T20:19:36+01:00 - Argomento non previsto
+2018-12-22T20:19:40+01:00 - argv[1] -> arduino_allarme|IN TEST|PIR -> Zona_notte
+
+2018-12-22T20:20:02+01:00 - argv[1] -> raspberry|temperatura|201812222020
+
+2018-12-22T20:20:02+01:00 - Argomento non previsto
+2018-12-22T20:20:02+01:00 - argv[1] -> arduino|cucina|temperatura|21.90
+
+2018-12-22T20:20:03+01:00 - Argomento non previsto
+2018-12-22T20:20:03+01:00 - argv[1] -> arduino|cucina|umidita|52.50
+
+2018-12-22T20:20:03+01:00 - Argomento non previsto
+2018-12-22T20:20:03+01:00 - argv[1] -> arduino|cucina|percepita|21.90
+
+2018-12-22T20:20:03+01:00 - Argomento non previsto
+2018-12-22T20:20:03+01:00 - argv[1] -> arduino_temp|2018/12/22|20|temp_cucina|21.90
+
+2018-12-22T20:20:03+01:00 - argv[1] -> arduino_temp|2018/12/22|20|umid_cucina|52.50
+
+2018-12-22T20:20:04+01:00 - argv[1] -> arduino_temp|2018/12/22|20|perc_cucina|21.90
+
+2018-12-22T20:20:04+01:00 - argv[1] -> arduino|esterna|temperatura|13.00
+
+2018-12-22T20:20:04+01:00 - Argomento non previsto
+2018-12-22T20:20:04+01:00 - argv[1] -> arduino|esterna|umidita|94.00
+
+2018-12-22T20:20:04+01:00 - Argomento non previsto
+2018-12-22T20:20:04+01:00 - argv[1] -> arduino|esterna|percepita|13.00
+
+2018-12-22T20:20:04+01:00 - Argomento non previsto
+2018-12-22T20:20:05+01:00 - argv[1] -> arduino_temp|2018/12/22|20|temp_esterna|13.00
+
+2018-12-22T20:20:05+01:00 - argv[1] -> arduino_temp|2018/12/22|20|umid_esterna|94.00
+
+2018-12-22T20:20:05+01:00 - argv[1] -> arduino_temp|2018/12/22|20|perc_esterna|13.00
+
+2018-12-22T20:20:05+01:00 - argv[1] -> arduino|studio|temperatura|14.00
+
+2018-12-22T20:20:05+01:00 - Argomento non previsto
+2018-12-22T20:20:05+01:00 - argv[1] -> arduino|studio|umidita|76.00
+
+2018-12-22T20:20:05+01:00 - Argomento non previsto
+2018-12-22T20:20:05+01:00 - argv[1] -> arduino|studio|percepita|14.00
+
+2018-12-22T20:20:06+01:00 - Argomento non previsto
+2018-12-22T20:20:06+01:00 - argv[1] -> arduino_temp|2018/12/22|20|temp_studio|14.00
+
+2018-12-22T20:20:06+01:00 - argv[1] -> arduino_temp|2018/12/22|20|umid_studio|76.00
+
+2018-12-22T20:20:06+01:00 - argv[1] -> arduino_temp|2018/12/22|20|perc_studio|14.00
+
+2018-12-22T20:20:06+01:00 - argv[1] -> arduino|camera|temperatura|22.80
+
+2018-12-22T20:20:06+01:00 - Argomento non previsto
+2018-12-22T20:20:06+01:00 - argv[1] -> arduino|camera|umidita|50.90
+
+2018-12-22T20:20:06+01:00 - Argomento non previsto
+2018-12-22T20:20:07+01:00 - argv[1] -> arduino|camera|percepita|22.80
+
+2018-12-22T20:20:07+01:00 - Argomento non previsto
+2018-12-22T20:20:07+01:00 - argv[1] -> arduino_temp|2018/12/22|20|temp_camera|22.80
+
+2018-12-22T20:20:07+01:00 - argv[1] -> arduino_temp|2018/12/22|20|umid_camera|50.90
+
+2018-12-22T20:20:07+01:00 - argv[1] -> arduino_temp|2018/12/22|20|perc_camera|22.80
+
+2018-12-22T20:20:25+01:00 - nome_colonna-> luce-bagno-STUTATA
+2018-12-22T20:22:22+01:00 - nome_colonna-> luce-camera_ospiti-STUTATA
+2018-12-22T20:22:41+01:00 - argv[1] -> Controllo attivo
+
+2018-12-22T20:22:41+01:00 - Argomento non previsto
+2018-12-22T20:22:41+01:00 - argv[1] -> arduino|Zona_giorno|status|movimento
+
+2018-12-22T20:22:41+01:00 - Argomento non previsto
+2018-12-22T20:22:41+01:00 - argv[1] -> arduino|Zona_notte|status|attesa
+
+2018-12-22T20:22:42+01:00 - Argomento non previsto
+2018-12-22T20:22:42+01:00 - argv[1] -> PIR -> Zona_giorno
+
+2018-12-22T20:22:42+01:00 - Argomento non previsto
+2018-12-22T20:22:46+01:00 - argv[1] -> arduino_allarme|IN TEST|PIR -> Zona_giorno
+
+2018-12-22T20:23:38+01:00 - nome_colonna-> luce-cucinino-PPICCIATA

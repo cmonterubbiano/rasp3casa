@@ -40,7 +40,7 @@
 <div class="container">
   <div class="header_mini">
   	
-  	<a href="./index.php" class="main_menu_link"><?php echo TITLE_OF_PROJECT; ?> - MAIN MENU</a> 
+  	<a href="./index_lucio.php" class="main_menu_link"><?php echo TITLE_OF_PROJECT; ?> - MAIN MENU</a> 
     <!-- end .header --></div>
  
 <?php 	require_once("./top_menu.php");  ?>    
@@ -64,6 +64,9 @@
 		if($_POST['generale'] == "on"){ $generale = "SI";} else { $generale = "NO";}
 		if($_POST['notte'] == "on"){ $notte = "SI";} else { $notte = "NO";}
 		if($_POST['vario'] == "on"){ $vario = "SI";} else { $vario = "NO";}
+		if($_POST['messaggi'] == "on"){ $messaggi = "SI";} else { $messaggi = "NO";}
+		if($_POST['telefono'] == "on"){ $telefono = "SI";} else { $telefono = "NO";}
+		if($_POST['sirena'] == "on"){ $sirena = "SI";} else { $sirena = "NO";}
 		// if($_POST['ora_fine'] == ""){ $sqlOrarioFine = "NULL";} else { $sqlOrarioFine = "'" .$_POST['ora_fine']. ":00'" ;}
 	
 		// $dataEsecuzioneFromPost = $_POST['data_esecuzione'];
@@ -85,7 +88,7 @@
 		if ($result->num_rows >0)
 		{
 			//UPDATE `sensori` SET `descrizione`='"lklklk"' WHERE 1
-			$query = "UPDATE `claudio`.`sensori` SET `descrizione`='".$_POST['nome_job']."', `Generale` ='".$generale."', `Notte` ='".$notte."', `Vario` ='".$vario."' WHERE `sensori`.`codice` =$codice";
+			$query = "UPDATE `claudio`.`sensori` SET `descrizione`='".$_POST['nome_job']."', `Generale` ='".$generale."', `Notte` ='".$notte."', `Vario` ='".$vario."', `sirena` ='".$sirena."', `messaggi` ='".$messaggi."', `telefono` ='".$telefono."' WHERE `sensori`.`codice` =$codice";
 			
 			// $query = "UPDATE `claudio`.`sensori` 
 			// (`timestamp`, `descrizione`, `Generale`, `Notte`, `Vario`) 
@@ -180,7 +183,25 @@
 		        <label for="vario" class="new_job_text_label_secondary">Allarme tipo1</label>
             </td><td class="second_column">
             	<input type="checkbox" name="vario" class="new_job_chebox" id="new_job_vario" checked="checked" />
+            </td></tr>
+  
+        	<tr><td class="first_column">
+		        <label for="messaggi" class="new_job_text_label_secondary">Messaggi</label>
+            </td><td class="second_column">
+            	<input type="checkbox" name="messaggi" class="new_job_chebox" id="new_job_messaggi" checked="checked" />
             </td></tr>	
+  
+        	<tr><td class="first_column">
+		        <label for="telefono" class="new_job_text_label_secondary">Telefono</label>
+            </td><td class="second_column">
+            	<input type="checkbox" name="telefono" class="new_job_chebox" id="new_job_telefono" checked="checked" />
+            </td></tr>	
+  
+        	<tr><td class="first_column">
+		        <label for="sirena" class="new_job_text_label_secondary">Sirena</label>
+            </td><td class="second_column">
+            	<input type="checkbox" name="sirena" class="new_job_chebox" id="new_job_sirena" checked="checked" />
+            </td></tr>				
         	<tr><td class="first_column full_line_td" colspan="2">
             	<input type="submit" value="AGGIORNA SENSORE" class="new_job_submit" />
             </td></tr>
@@ -397,6 +418,18 @@ function myFunction(tipo) {
 					document.getElementById("new_job_vario").checked =true;
 				else
 					document.getElementById("new_job_vario").checked =false;
+				if (data.messaggi =="SI")
+					document.getElementById("new_job_messaggi").checked =true;
+				else
+					document.getElementById("new_job_messaggi").checked =false;
+				if (data.telefono =="SI")
+					document.getElementById("new_job_telefono").checked =true;
+				else
+					document.getElementById("new_job_telefono").checked =false;
+				if (data.sirena =="SI")
+					document.getElementById("new_job_sirena").checked =true;
+				else
+					document.getElementById("new_job_sirena").checked =false;
 			}
 			else
 			{
@@ -405,6 +438,9 @@ function myFunction(tipo) {
 				$("#new_job_generale").attr("checked",true);	
 				document.getElementById("new_job_notte").checked =true;
 				document.getElementById("new_job_vario").checked =true;
+				document.getElementById("new_job_messaggi").checked =true;
+				document.getElementById("new_job_telefono").checked =true;
+				document.getElementById("new_job_sirena").checked =true;
 				// if (tipo =="A")
 				// {
 					// var urlToCall = "index.php";

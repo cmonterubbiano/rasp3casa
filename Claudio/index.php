@@ -61,14 +61,14 @@
         	MONITOR<br/>UMIDITA'
         </div></a>
         
-   		<a href="./Gestione_sensori.php">
+   		<a href="">
    		<div class="main_button_index">
-        	GESTIONE<br/>SENSORI
+
         </div></a>
         
    		<div class="main_button_index">
 
-        <input type="button" value="LEGGI SENSORE" class="cmd5 switch_button_direct_reboot switch_button_run" id="leggi_sensore" />
+        <input type="button" value="REBOOT ARDUINO" class="cmd5 switch_button_direct_reboot switch_button_run" id="reboot_arduino" />
    		</div>
    		<div class="main_button_index">
 
@@ -91,7 +91,7 @@
 
 $(document).ready(function() {
 	$("#reboot_sistema").click(function() {	rebootSistema();	});
-	$("#leggi_sensore").click(function() {	leggiSensore();	});
+	$("#reboot_arduino").click(function() {	rebootArduino();	});
 });
 function rebootSistema(){
 	var r = confirm("Sei sicuro di voler riavviare il sistema?");
@@ -103,11 +103,16 @@ function rebootSistema(){
 		$.ajax({
 			dataType: "json",
 			url: './ajax/sistemReboot.php',
+			//url: './ajax/arduinoReboot.php',
+			//url: './killarduinoRead.php',
 			success: function(data) {
 			  // alert("una_variabile:: " + data.una_variabile);
 			  // alert("esito_exec:: " + data.esito_exec);
 			  // alert("output:: " + data.output);
+			  //alert("primo_valore: " + data.primo_valore );
+			  //alert("rispostaRilancio: " + data.rispostaRilancio );
 			  alert("Il sistema si sta riavviando...: " + data);
+			  //throbberStop();
 			  // console.log("data: ");
 			  // console.log(data);
 			}
@@ -117,20 +122,25 @@ function rebootSistema(){
 		//alert("Premuto Cancel");
 	}
 }
-function leggiSensore(){
-	var r = confirm("Hai circa 10 secondi per leggere il codice del sensore?");
+function rebootArduino(){
+	var r = confirm("Sei sicuro di voler riavviare Arduino?");
 	if (r == true) {
+		//alert ("Riavvioa");
 		throbberStart();
 		//alert ("Riavvio11111a");
 		//alert("text: " + $(caller).attr("value"));
 		$.ajax({
 			dataType: "json",
-			url: './ajax/leggi433.php',
+			//url: './ajax/sistemReboot.php',
+			//url: './ajax/arduinoReboot.php',
+			url: './killarduinoRead.php',
 			success: function(data) {
 			  // alert("una_variabile:: " + data.una_variabile);
 			  // alert("esito_exec:: " + data.esito_exec);
 			  // alert("output:: " + data.output);
-			  alert(data.esito_exec);
+			  //alert("primo_valore: " + data.primo_valore );
+			  //alert("rispostaRilancio: " + data.rispostaRilancio );
+			  alert("Arduino si sta riavviando...: " + data);
 			  throbberStop();
 			  // console.log("data: ");
 			  // console.log(data);

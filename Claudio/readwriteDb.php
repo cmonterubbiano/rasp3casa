@@ -129,16 +129,17 @@ require_once("config.php");
 				if (($title =strpos($valoreLetto, '~')))
 				{
 					$parz =substr($valoreLetto, 0, $title);
-					echo "porzione -> " . $title . " - " . $parz . "\n";
+					//echo "porzione -> " . $title . " - " . $parz . "\n";
 					logToFile($parz);
 					$result = exec('sudo /usr/bin/python /var/www/html/Claudio/arduinoWrite.py raspberry_sirena\|'.$parz);
-					sleep(2);
+					sleep(1);
 					$valoreLetto =substr($valoreLetto, ($title +1), ($lung -$title));
 					//echo $valoreLetto . "\n";
 				}
 				else
 					break;
 			}
+			$result = exec('sudo /usr/bin/python /var/www/html/Claudio/arduinoWrite.py raspberry_fine_sirena');
 		}
 		else
 		{
