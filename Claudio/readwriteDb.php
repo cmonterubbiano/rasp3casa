@@ -118,6 +118,7 @@ require_once("config.php");
 		{
 			$valoreLetto = leggiSuoniSirena();
 			//echo "valoreLetto: " . $valoreLetto . "\n";
+			
 			for(;;)
 			{
 				$lung =strlen($valoreLetto);
@@ -140,6 +141,35 @@ require_once("config.php");
 					break;
 			}
 			$result = exec('sudo /usr/bin/python /var/www/html/Claudio/arduinoWrite.py raspberry_fine_sirena');
+		}
+		elseif(!strcmp($nome_arduino, "arduino_rubrica"))
+		{
+			$valoreLetto = leggiRubrica();
+			// echo "valoreLetto: " . $valoreLetto . "\n";
+			$valoreLetto =str_replace(' ', '_', $valoreLetto);
+			// echo "valoreLetto:-" . $valoreLetto . "\n";
+			for(;;)
+			{
+				$lung =strlen($valoreLetto);
+				//echo "lunghezza inizio -> " . $lung . "\n";
+				
+				if (!$lung)
+					break;
+				
+				if (($title =strpos($valoreLetto, '~')))
+				{
+					$parz =substr($valoreLetto, 0, $title);
+					//echo "porzione -> " . $title . " - " . $parz . "\n";
+					logToFile($parz);
+					$result = exec('sudo /usr/bin/python /var/www/html/Claudio/arduinoWrite.py raspberry_rubrica\|'.$parz);
+					sleep(1);
+					$valoreLetto =substr($valoreLetto, ($title +1), ($lung -$title));
+					//echo $valoreLetto . "\n";
+				}
+				else
+					break;
+			}
+			$result = exec('sudo /usr/bin/python /var/www/html/Claudio/arduinoWrite.py raspberry_fine_rubrica');
 		}
 		else
 		{
@@ -492,5 +522,35 @@ function leggiSuoniSirena()
 	return($rito);
 	
 	$conn->close();
-}		
+}	
+
+
+function leggiRubrica()
+{
+	$rito ="";
+	// Create connection
+	
+	$conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+	// Check connection
+	if ($conn->connect_error)
+	{
+		die("Connection failed: " . $conn->connect_error);
+	}
+
+	$sqlQuery = "SELECT * FROM rubrica";
+	$result = $conn->query($sqlQuery);
+
+	if ($result->num_rows >0)
+	{
+		while($riga = $result->fetch_assoc())
+		{
+			$rito .=$riga["nominativo"]."\|".$riga["numero"]."\|".$riga["telefona"]."\|".$riga["messaggia"]."~";
+			//echo $rito . "\n";
+		}
+	}
+
+	return($rito);
+	
+	$conn->close();
+}			
 ?>
