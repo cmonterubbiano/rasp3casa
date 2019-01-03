@@ -79,6 +79,7 @@
 		
 		//echo "<h1>data: ". $data_esecuzione ."</h1>";
 		$codice =$_POST['Codice'];
+		$tempo_allarme =$_POST['tempo_allarme'];
 		$query = "DELETE FROM `claudio`.`sensori` WHERE `sensori`.`id` ='1'";
 		//echo $query;
 		$result = executeQuery($query);
@@ -88,7 +89,7 @@
 		if ($result->num_rows >0)
 		{
 			//UPDATE `sensori` SET `descrizione`='"lklklk"' WHERE 1
-			$query = "UPDATE `claudio`.`sensori` SET `descrizione`='".$_POST['nome_job']."', `Generale` ='".$generale."', `Notte` ='".$notte."', `Vario` ='".$vario."', `sirena` ='".$sirena."', `messaggi` ='".$messaggi."', `telefono` ='".$telefono."' WHERE `sensori`.`codice` =$codice";
+			$query = "UPDATE `claudio`.`sensori` SET `descrizione`='".$_POST['nome_job']."', `Generale` ='".$generale."', `Notte` ='".$notte."', `Vario` ='".$vario."', `sirena` ='".$sirena."', `messaggi` ='".$messaggi."', `telefono` ='".$telefono."', `tempo_allarme` ='".$tempo_allarme."' WHERE `sensori`.`codice` =$codice";
 			
 			// $query = "UPDATE `claudio`.`sensori` 
 			// (`timestamp`, `descrizione`, `Generale`, `Notte`, `Vario`) 
@@ -105,7 +106,7 @@
 		else
 		{
 			$query = "INSERT INTO `claudio`.`sensori` 
-			(`id`, `timestamp`, `descrizione`, `Codice`, `Generale`, `Notte`, `Vario`) 
+			(`id`, `timestamp`, `descrizione`, `Codice`, `Generale`, `Notte`, `Vario`, `messaggi`, `telefono`, `sirena`, `tempo_allarme`) 
 			VALUES 
 			(NULL, CURRENT_TIMESTAMP
 			, '".$_POST['nome_job']."'
@@ -113,6 +114,10 @@
 			, '".$generale."'
 			, '".$notte."'
 			, '".$vario."'
+			, '".$messaggi."'
+			, '".$telefono."'
+			, '".$sirena."'
+			, '".$tempo_allarme."'
 			);";
 		}
 		// risultato di una querry
@@ -201,7 +206,13 @@
 		        <label for="sirena" class="new_job_text_label_secondary">Sirena</label>
             </td><td class="second_column">
             	<input type="checkbox" name="sirena" class="new_job_chebox" id="new_job_sirena" checked="checked" />
-            </td></tr>				
+            </td></tr>
+			<tr><td class="first_column">
+		        <label for="tempo_allarme" class="new_job_text_label_secondary">Tempo allarme</label>
+            </td><td class="second_column" id="td_new_job_tempo_allarme">
+            	<input value="0" type="text" name="tempo_allarme" class="new_job_text_grey new_job_text_grey_small" id="new_job_tempo_allarme" />
+                <span class="new_job_text_label_secondary" >mn. 0=loop</span>
+            </td></tr>			
         	<tr><td class="first_column full_line_td" colspan="2">
             	<input type="submit" value="AGGIORNA SENSORE" class="new_job_submit" />
             </td></tr>
@@ -430,6 +441,7 @@ function myFunction(tipo) {
 					document.getElementById("new_job_sirena").checked =true;
 				else
 					document.getElementById("new_job_sirena").checked =false;
+				jQuery('#new_job_tempo_allarme').val( data.tempo_allarme);
 			}
 			else
 			{
@@ -441,6 +453,7 @@ function myFunction(tipo) {
 				document.getElementById("new_job_messaggi").checked =true;
 				document.getElementById("new_job_telefono").checked =true;
 				document.getElementById("new_job_sirena").checked =true;
+				jQuery('#new_job_tempo_allarme').val( "0");
 				// if (tipo =="A")
 				// {
 					// var urlToCall = "index.php";
