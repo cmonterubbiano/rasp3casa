@@ -77,7 +77,7 @@ require_once("config.php");
 			$valoreLetto = leggiSingoloSensore($codice_segnale);
 			if ($valoreLetto)
 			{
-				aggiornaValoriLog("ALLARME",$valoreLetto);
+				//aggiornaValoriLog("ALLARME",$valoreLetto);
 				aggiornaInAllarme("IN ALLARME");
 				$valoreLetto =str_replace(' ', '~', $valoreLetto);
 				echo "valoreLetto: " . $valoreLetto . "\n";
@@ -162,7 +162,7 @@ require_once("config.php");
 					//echo "porzione -> " . $title . " - " . $parz . "\n";
 					logToFile($parz);
 					$result = exec('sudo /usr/bin/python /var/www/html/Claudio/arduinoWrite.py raspberry_rubrica\|'.$parz);
-					sleep(1);
+					sleep(2);
 					$valoreLetto =substr($valoreLetto, ($title +1), ($lung -$title));
 					//echo $valoreLetto . "\n";
 				}
@@ -198,6 +198,15 @@ require_once("config.php");
 		$result = exec('sudo /usr/bin/python /var/www/html/Claudio/arduinoWrite.py '.$nome_comando);	
 		echo "risultato: ".$result;
 	}
+	elseif(isset($_REQUEST["r_aggiorna_arduino"]))
+	{
+		logToFile("r_aggiorna_arduino-> " . $_REQUEST["r_aggiorna_arduino"]);
+		//http://marietto.duckdns.org:8080/Claudio/readwriteDb.php?r_aggiorna_arduino=carica_rubrica
+		//http://192.168.1.205/Claudio/readwriteDb.php?r_aggiorna_arduino=carica_rubrica
+		$nome_comando = $_REQUEST["r_aggiorna_arduino"];
+		$result = exec('sudo /usr/bin/python /var/www/html/Claudio/arduinoWrite.py '.$nome_comando);	
+		echo "risultato: ".$result;
+	}
 	else 
 	{
 		logToFile("Chiamata senza argomenti non prevista");
@@ -210,7 +219,7 @@ function logToFile($stringToLog){
 	file_put_contents("/var/www/html/Claudio/log.txt",date("c") . " - " . $stringToLog . "\n" , FILE_APPEND);
 }	
 
-function aggiornaValorilog($comando, $note){
+function aggiornaValoriLog($comando, $note){
 	// Create connection
 	$conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 	// Check connection
@@ -221,6 +230,21 @@ function aggiornaValorilog($comando, $note){
 	$result = $conn->query($sqlQueryInsert);
 	
 	$conn->close();
+	
+	if (!strcmp($comando, "IN ALLARME"))
+	{
+		accendiSpegniLuceTelefona("allarme");
+		// sleep(2);
+		accendiSpegniLuceTelefona("Sala_On");
+		// sleep(2);
+		accendiSpegniLuceTelefona("Corridoio_On");
+	}
+	if (!strcmp($comando, "INTERROTTO"))
+	{
+		accendiSpegniLuceTelefona("Sala_Off");
+		// sleep(2);
+		accendiSpegniLuceTelefona("Corridoio_Off");
+	}
 }	
 
 //	aggiornaValoriStanze("temperatura","camera_ospiti",709);
@@ -366,6 +390,7 @@ function leggiSingoloSensore($valore_codice)
 			$messaggi =$riga["messaggi"];
 			$telefono =$riga["telefono"];
 			$sirena =$riga["sirena"];
+			$tempo_allarme =$riga["tempo_allarme"];
 			$id =$riga["id"];
 			$data = date("Y-m-d H:i:s");
 			//echo "data -> " . $data . "\n";
@@ -382,7 +407,7 @@ function leggiSingoloSensore($valore_codice)
 			}
 			if (leggiStatoAllarme($riga["Generale"], $riga["Notte"], $riga["Vario"]))
 			{
-				return($descrizione."\|".$messaggi."\|".$telefono."\|".$sirena);
+				return($descrizione."\|".$messaggi."\|".$telefono."\|".$sirena."\|".$tempo_allarme);
 			}
 		}
 	}
@@ -463,7 +488,7 @@ function aggiornaInAllarme($valore_status)
 function aggiornaStatusAllarme($valore_status, $con, $gen, $not, $tip )
 {
 	// Create connection
-	
+	aggiornaValoriLog($valore_status,"-----");
 	$conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 	// Check connection
 	if ($conn->connect_error)
@@ -552,5 +577,27 @@ function leggiRubrica()
 	return($rito);
 	
 	$conn->close();
-}			
+}
+
+
+function accendiSpegniLuceTelefona($zona_modo)
+{
+	$urlToVisit = "https://maker.ifttt.com/trigger/".$zona_modo."/with/key/k0OtlRy3Q_YZWF-zlfF7d-TFWCkVcN0jGlwcFSU6SSG";
+	
+	// $urlToVisit = "https://maker.ifttt.com/trigger/Sala_On/with/key/k0OtlRy3Q_YZWF-zlfF7d-TFWCkVcN0jGlwcFSU6SSG";
+	// echo $urlToVisit . "\n";
+	$resp = visitThisLocalPage($urlToVisit);
+	// echo $resp . "\n";
+}
+
+function visitThisLocalPage($urlToVisit){
+	$ch = curl_init($urlToVisit);
+       curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+       curl_setopt($ch, CURLOPT_URL, $urlToVisit);		
+	$storeresult = curl_exec($ch);
+	curl_close($ch);	
+	return($storeresult);	
+}
+	
+	
 ?>
